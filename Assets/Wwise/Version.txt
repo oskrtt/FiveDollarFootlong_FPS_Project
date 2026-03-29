@@ -1,0 +1,7 @@
+Wwise Unity Integration Version Info:
+
+Based on Wwise SDK: 2024.1.12 Build 9034
+
+Unity Integration Bundle: 2024.1.12.3989
+
+Unity Integration Version: 20
