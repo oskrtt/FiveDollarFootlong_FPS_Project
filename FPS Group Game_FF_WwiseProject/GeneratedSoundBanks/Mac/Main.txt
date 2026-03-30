@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73624708	jump1	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\09\{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump1		123280
+	103185814	jump4	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\D2\{D2B27FE9-E803-116A-6881-865435840412}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump4		110948
+	125288418	jump2	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\39\{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump2		117132
+	739805729	jump5	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\26\{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump5		94512
+	888030220	jump3	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\FC\{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump3		119180
+

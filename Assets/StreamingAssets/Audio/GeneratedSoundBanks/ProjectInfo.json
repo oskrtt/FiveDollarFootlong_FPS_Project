@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "FPS Group Game_FF_WwiseProject",
+   "GUID": "{F8448C62-3800-4ACB-B7B2-D73DAA9C47AF}",
+   "Generator": "2024.1.12.9034"
+  },
+  "CacheRoot": "../../../../FPS Group Game_FF_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{BBB87920-183C-42CC-A460-659F67D64D8B}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../FPS Group Game_FF_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{2605E358-974B-47E7-B8B6-00E6218D8F07}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../FPS Group Game_FF_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{FC3E0D7C-2006-460A-A09C-805AF869597B}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{8EED909F-F2C7-F548-78B5-221FA6C99D23}"
+ }
+}

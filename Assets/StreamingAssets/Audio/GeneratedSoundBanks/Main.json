@@ -1,0 +1,91 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
+    "Language": "SFX",
+    "Hash": "{97D8A223-07AB-35C2-6458-62E1F72DB6C2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "73624708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
+      "CachePath": "09/{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem"
+     },
+     {
+      "Id": "103185814",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
+      "CachePath": "D2/{D2B27FE9-E803-116A-6881-865435840412}.wem"
+     },
+     {
+      "Id": "125288418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
+      "CachePath": "39/{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem"
+     },
+     {
+      "Id": "739805729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
+      "CachePath": "26/{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem"
+     },
+     {
+      "Id": "888030220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
+      "CachePath": "FC/{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1305133589",
+      "Name": "Player_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Jump",
+      "GUID": "{F55559F0-75F8-4194-87F8-07D90DC22851}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49175",
+      "DurationMax": "0.64159",
+      "MediaRefs": [
+       {
+        "Id": "73624708"
+       },
+       {
+        "Id": "103185814"
+       },
+       {
+        "Id": "125288418"
+       },
+       {
+        "Id": "739805729"
+       },
+       {
+        "Id": "888030220"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C0AA8674-FFD6-9502-66D3-13A562D54C8B}"
+ }
+}

@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584269323814881101
-    List: []
+    m_lastTime: -8584267856788959075
+    List:
+    - name: Main
+      guid: 5ebb55d44705a841a4cbdc55a4527cba
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8512ff3dac1f8545824add3a70e8f7a6
+      - ElementName: Main
+        ObjectType: 7
+        guid: 5ebb55d44705a841a4cbdc55a4527cba
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584269323816975170
-    List: []
+    m_lastTime: -8584267856789061650
+    List:
+    - name: Player_Jump
+      guid: f05955f5f875944187f807d90dc22851
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Jump
+        ObjectType: 3
+        guid: f05955f5f875944187f807d90dc22851
+      Path: Events\Default Work Unit\Player_Jump
+      maxAttenuation: 0
+      maxDuration: 0.64159
+      minDuration: 0.49175
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -138,9 +169,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584269323814461917
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 020000000300000008000000090000000a00000067000000
+  ExpandedWaapiItemIds: 020000000500000008000000090000000a0000000c00000067000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

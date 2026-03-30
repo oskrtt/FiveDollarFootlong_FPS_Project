@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{145DE73E-C8AF-4FF8-9361-D3C536C713F0}" ShortID="1054280452">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="player-jump" ID="{1CCA566F-0220-46CC-91E3-07488FAF4E8E}" ShortID="362174464">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="jump1" ID="{435796F2-1B2A-459D-869A-29A4537940A1}" ShortID="536376611">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{E45C9F98-D87D-45F4-81DC-74F2208DFBE1}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.23528"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.57741"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.219"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1253904.audio-WHSH-Whoosh_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="73624708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{E45C9F98-D87D-45F4-81DC-74F2208DFBE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="jump2" ID="{D1DFBB4E-8303-4CE7-A4E3-F3170DF24745}" ShortID="363669342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{839E0099-BFF9-41D0-BBD0-B25A1C897B90}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.23528"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.35264"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.9622"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1253904.audio-WHSH-Whoosh_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125288418"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{839E0099-BFF9-41D0-BBD0-B25A1C897B90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="jump3" ID="{5CFA6C76-4C69-4B54-B699-7B86263B3B37}" ShortID="473440009">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{A3A72533-3040-4B58-B004-EBB34B589709}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.04278"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.08511"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.70535"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1253904.audio-WHSH-Whoosh_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888030220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{A3A72533-3040-4B58-B004-EBB34B589709}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="jump4" ID="{F1A3A32A-3F83-4C62-B419-716B2936B6C8}" ShortID="244905089">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{793DA74B-B529-4F7E-A036-50E200478C2D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.04278"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.81767"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.39502"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1253904.audio-WHSH-Whoosh_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103185814"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{793DA74B-B529-4F7E-A036-50E200478C2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="jump5" ID="{7F5F8FA0-1DB8-4E38-94E2-D9B409115716}" ShortID="29173967">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{AF12C199-24F1-40AF-9949-145987C6E13B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.10695"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.61437"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.10612"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>1253904.audio-WHSH-Whoosh_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739805729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{AF12C199-24F1-40AF-9949-145987C6E13B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
