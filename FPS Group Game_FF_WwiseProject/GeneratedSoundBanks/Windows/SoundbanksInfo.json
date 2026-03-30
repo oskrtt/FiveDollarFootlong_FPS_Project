@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{97D8A223-07AB-35C2-6458-62E1F72DB6C2}",
+    "Hash": "{8FDC2F3F-DEFB-F9E2-A96A-BF2A3B07F99F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -86,6 +86,30 @@
       "CachePath": "39/{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem"
      },
      {
+      "Id": "554260493",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02.wav",
+      "CachePath": "69/{69409BBF-7CFF-02F4-6848-A955BE4730A5}.wem"
+     },
+     {
+      "Id": "591485708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21.wav",
+      "CachePath": "68/{6815DD51-6231-CE9E-AF3F-A6E48C2AECC7}.wem"
+     },
+     {
+      "Id": "707688991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01.wav",
+      "CachePath": "0C/{0C3D371A-EACC-9EE7-9F8A-A00167B01AC0}.wem"
+     },
+     {
       "Id": "739805729",
       "Language": "SFX",
       "Streaming": "false",
@@ -94,15 +118,79 @@
       "CachePath": "26/{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem"
      },
      {
+      "Id": "842355714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40.wav",
+      "CachePath": "AE/{AE641FDB-7C24-0E26-2823-FEDC286B78BB}.wem"
+     },
+     {
       "Id": "888030220",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
       "CachePath": "FC/{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem"
+     },
+     {
+      "Id": "892649398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12.wav",
+      "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
+     },
+     {
+      "Id": "1007893926",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02.wav",
+      "CachePath": "5A/{5ADEEFF0-2E1B-10E7-CEC0-02E947B82E63}.wem"
+     },
+     {
+      "Id": "1064356431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14.wav",
+      "CachePath": "9F/{9FCE7EBB-6E55-6461-8804-F1205A95B971}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1068092414",
+      "Name": "Player_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Hurt",
+      "GUID": "{022DD827-015B-4002-87C2-839B25E82F6E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.272",
+      "DurationMax": "0.50666666",
+      "MediaRefs": [
+       {
+        "Id": "554260493"
+       },
+       {
+        "Id": "591485708"
+       },
+       {
+        "Id": "707688991"
+       },
+       {
+        "Id": "842355714"
+       },
+       {
+        "Id": "892649398"
+       },
+       {
+        "Id": "1007893926"
+       },
+       {
+        "Id": "1064356431"
+       }
+      ]
+     },
      {
       "Id": "1305133589",
       "Name": "Player_Jump",
@@ -132,6 +220,6 @@
     ]
    }
   ],
-  "FileHash": "{E6B52A73-97FC-EFF7-845C-33AE4E6C172B}"
+  "FileHash": "{52E6F334-6DDF-C5DE-5CDE-A41A7C47C8E1}"
  }
 }

@@ -172,6 +172,172 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="player-hurt" ID="{CAD4A4C9-864E-493D-872B-40DE5F797545}" ShortID="811464896">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12" ID="{60BFCC25-9937-44F0-B728-32F984A32945}" ShortID="486992309">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12" ID="{F20B4640-8B04-4BC7-B2EC-9E0E8EF247A7}">
+											<Language>SFX</Language>
+											<AudioFile>319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892649398"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12" ID="{F20B4640-8B04-4BC7-B2EC-9E0E8EF247A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40" ID="{01903D99-20B2-410B-A649-47369D54D449}" ShortID="717491707">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40" ID="{0F6A97FE-DA0A-4A87-A17D-9704316C83F5}">
+											<Language>SFX</Language>
+											<AudioFile>319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="842355714"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40" ID="{0F6A97FE-DA0A-4A87-A17D-9704316C83F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02" ID="{D1F102C9-A05A-4024-BB57-FF67A6FE1FFB}" ShortID="275983650">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02" ID="{BD7623FA-9A72-4E80-8122-19A677163CC4}">
+											<Language>SFX</Language>
+											<AudioFile>319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1007893926"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02" ID="{BD7623FA-9A72-4E80-8122-19A677163CC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21" ID="{6E98AFF0-A886-42FA-B6AC-D9F180E3C28E}" ShortID="623325107">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21" ID="{1F884C38-6410-4F85-913F-0ED6700601DE}">
+											<Language>SFX</Language>
+											<AudioFile>319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="591485708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21" ID="{1F884C38-6410-4F85-913F-0ED6700601DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14" ID="{3B97200E-207E-4FC3-AFF5-C5CE20387CE8}" ShortID="660347391">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14" ID="{D5B45F3F-7EBD-419B-BF17-63AEE5DDA47B}">
+											<Language>SFX</Language>
+											<AudioFile>319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1064356431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14" ID="{D5B45F3F-7EBD-419B-BF17-63AEE5DDA47B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02" ID="{EE21F580-8A41-4058-8805-8AAE340BC491}" ShortID="743503961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02" ID="{8994451E-539A-496A-8E1B-5C3A8E8E62E5}">
+											<Language>SFX</Language>
+											<AudioFile>319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554260493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02" ID="{8994451E-539A-496A-8E1B-5C3A8E8E62E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01" ID="{412113B1-9183-477C-935F-C9310CD614BB}" ShortID="517711087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01" ID="{1D7CF54E-4E7E-4C00-88EE-E2687A26CF16}">
+											<Language>SFX</Language>
+											<AudioFile>319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="707688991"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01" ID="{1D7CF54E-4E7E-4C00-88EE-E2687A26CF16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
