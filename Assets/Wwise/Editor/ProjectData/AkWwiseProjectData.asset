@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584267856788959075
+    m_lastTime: -8584267011545982520
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584267615510368534
+    m_lastTime: -8584267011546203758
     List:
+    - name: Player_Hurt
+      guid: 27d82d025b01024087c2839b25e82f6e
+      id: 1068092414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Hurt
+        ObjectType: 3
+        guid: 27d82d025b01024087c2839b25e82f6e
+      Path: Events\Default Work Unit\Player_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.50666666
+      minDuration: 0.272
     - name: Player_Jump
       guid: f05955f5f875944187f807d90dc22851
       id: 1305133589
