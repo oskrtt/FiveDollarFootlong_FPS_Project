@@ -56,7 +56,11 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "{8FDC2F3F-DEFB-F9E2-A96A-BF2A3B07F99F}",
+=======
+    "Hash": "{455251E2-2ECB-42B7-7A53-5B6E439E78A9}",
+>>>>>>> origin/develop
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -68,6 +72,14 @@
       "Location": "Memory",
       "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
       "CachePath": "09/{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem"
+     },
+     {
+      "Id": "75644071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_01.wav",
+      "CachePath": "6C/{6C41343F-4808-9918-80DB-661ACB5255AB}.wem"
      },
      {
       "Id": "103185814",
@@ -86,6 +98,7 @@
       "CachePath": "39/{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem"
      },
      {
+<<<<<<< HEAD
       "Id": "554260493",
       "Language": "SFX",
       "Streaming": "false",
@@ -108,6 +121,30 @@
       "Location": "Memory",
       "ShortName": "319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01.wav",
       "CachePath": "0C/{0C3D371A-EACC-9EE7-9F8A-A00167B01AC0}.wem"
+=======
+      "Id": "564009594",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_03.wav",
+      "CachePath": "A9/{A9F0D806-6054-288F-137C-C95BA9EE1F65}.wem"
+     },
+     {
+      "Id": "607649554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_04.wav",
+      "CachePath": "E3/{E3CDCEB0-11EE-307C-3E90-3C81A9F23D3D}.wem"
+     },
+     {
+      "Id": "607998655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_02.wav",
+      "CachePath": "2B/{2BC36E59-0673-9701-8B84-6D53930E6C8E}.wem"
+>>>>>>> origin/develop
      },
      {
       "Id": "739805729",
@@ -160,6 +197,7 @@
     ],
     "Events": [
      {
+<<<<<<< HEAD
       "Id": "1068092414",
       "Name": "Player_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Hurt",
@@ -188,6 +226,27 @@
        },
        {
         "Id": "1064356431"
+=======
+      "Id": "4067705073",
+      "Name": "Enemy_HoverBot_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
+      "GUID": "{4377CBBB-C152-44D3-BD13-B73746383320}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30359253",
+      "DurationMax": "0.5411099",
+      "MediaRefs": [
+       {
+        "Id": "75644071"
+       },
+       {
+        "Id": "564009594"
+       },
+       {
+        "Id": "607649554"
+       },
+       {
+        "Id": "607998655"
+>>>>>>> origin/develop
        }
       ]
      },
@@ -220,6 +279,10 @@
     ]
    }
   ],
+<<<<<<< HEAD
   "FileHash": "{B899F306-B971-FD01-0A6E-E01783741BCB}"
+=======
+  "FileHash": "{62BE5C58-416E-55B7-E65B-E7F2C2BA2D75}"
+>>>>>>> origin/develop
  }
 }

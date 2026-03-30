@@ -13,7 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+<<<<<<< HEAD
         static const AkUniqueID PLAYER_HURT = 1068092414U;
+=======
+        static const AkUniqueID ENEMY_HOVERBOT_HURT = 4067705073U;
+>>>>>>> origin/develop
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
     } // namespace EVENTS
 
