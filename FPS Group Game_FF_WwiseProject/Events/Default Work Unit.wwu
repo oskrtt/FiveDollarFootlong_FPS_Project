@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Enemy_HoverBot_Hurt" ID="{4377CBBB-C152-44D3-BD13-B73746383320}">
+					<ChildrenList>
+						<Action Name="" ID="{86D86476-984F-4236-8D63-9BCE00CAC94C}" ShortID="540360270">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{32924E6B-B316-4D9E-9051-218A66F6803F}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

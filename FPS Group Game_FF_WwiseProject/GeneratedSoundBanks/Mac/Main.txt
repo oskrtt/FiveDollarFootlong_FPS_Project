@@ -1,10 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
+	4067705073	Enemy_HoverBot_Hurt			\Default Work Unit\Enemy_HoverBot_Hurt	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	73624708	jump1	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\09\{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump1		123280
-	103185814	jump4	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\D2\{D2B27FE9-E803-116A-6881-865435840412}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump4		110948
-	125288418	jump2	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\39\{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump2		117132
-	739805729	jump5	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\26\{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump5		94512
-	888030220	jump3	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\FC\{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump3		119180
+	73624708	jump1	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\09\{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump1		123280
+	75644071	Enemy_HoverBot_Hurt_01	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\6C\{6C41343F-4808-9918-80DB-661ACB5255AB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_01		95368
+	103185814	jump4	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\D2\{D2B27FE9-E803-116A-6881-865435840412}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump4		110948
+	125288418	jump2	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\39\{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump2		117132
+	564009594	Enemy_HoverBot_Hurt_03	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\A9\{A9F0D806-6054-288F-137C-C95BA9EE1F65}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_03		79884
+	607649554	Enemy_HoverBot_Hurt_04	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\E3\{E3CDCEB0-11EE-307C-3E90-3C81A9F23D3D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_04		63660
+	607998655	Enemy_HoverBot_Hurt_02	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\2B\{2BC36E59-0673-9701-8B84-6D53930E6C8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_02		76316
+	739805729	jump5	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\26\{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump5		94512
+	888030220	jump3	C:\Users\13853\Desktop\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\FC\{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump3		119180
 
