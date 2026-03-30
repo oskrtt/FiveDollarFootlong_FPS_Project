@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	4067705073	Enemy_HoverBot_Hurt			\Default Work Unit\Enemy_HoverBot_Hurt	
-
