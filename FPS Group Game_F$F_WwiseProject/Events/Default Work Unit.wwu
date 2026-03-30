@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Enemy_HoverBot_Hurt" ID="{35A5A525-C6C5-48A2-8318-6B6552DD6BA6}">
+					<ChildrenList>
+						<Action Name="" ID="{3D3CA0C9-3996-4EB4-BE6B-D3BED97F4337}" ShortID="190071614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{2B9CAA0F-77FD-48C0-94DE-F62B8D42B7FB}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
