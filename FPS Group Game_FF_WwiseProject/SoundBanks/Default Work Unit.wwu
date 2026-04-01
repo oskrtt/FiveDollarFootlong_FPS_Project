@@ -7,7 +7,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Player_Hurt" ID="{022DD827-015B-4002-87C2-839B25E82F6E}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Jump" ID="{F55559F0-75F8-4194-87F8-07D90DC22851}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{4377CBBB-C152-44D3-BD13-B73746383320}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
