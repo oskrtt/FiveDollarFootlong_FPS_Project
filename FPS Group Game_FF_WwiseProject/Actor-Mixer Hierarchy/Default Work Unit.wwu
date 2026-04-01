@@ -340,6 +340,166 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Enemy" ID="{C4C77502-BEA1-4266-AE57-544EDA724B0C}" ShortID="774523273">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Enemy_HoverBot_Hurt" ID="{4CFF9B33-E049-4B36-AB12-514F95EC32E6}" ShortID="62442788">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{738AFB8C-20C7-4348-90EE-C9803034B54C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Enemy_HoverBot_Hurt_01" ID="{F7461C7E-8B88-468A-B4CC-5C2F770D3E31}" ShortID="723459822">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_HoverBot_Hurt_01" ID="{4D46A716-D2BC-4E8D-9A5C-4443585CA35C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00491"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.01469"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.03544"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.53878"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_HoverBot_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130119278"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_HoverBot_Hurt_01" ID="{4D46A716-D2BC-4E8D-9A5C-4443585CA35C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_HoverBot_Hurt_02" ID="{0F18BDAA-E9EA-4DED-BACF-B6187D7C262C}" ShortID="87851425">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_HoverBot_Hurt_02" ID="{4A258459-3ABA-4FB1-9CD3-3E3D84618D70}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00918"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.01122"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.04998"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.40615"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_HoverBot_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="556407654"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_HoverBot_Hurt_02" ID="{4A258459-3ABA-4FB1-9CD3-3E3D84618D70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_HoverBot_Hurt_03" ID="{1D95C153-8491-4D16-A7FA-9F2C86842932}" ShortID="657715843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_HoverBot_Hurt_03" ID="{EE974F51-E94F-4E1C-BB1D-1B07A543419F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00097"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.01236"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.03517"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.41816"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_HoverBot_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008970823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_HoverBot_Hurt_03" ID="{EE974F51-E94F-4E1C-BB1D-1B07A543419F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_HoverBot_Hurt_04" ID="{82424DC0-6BD2-4709-AE93-F6A99A567C2E}" ShortID="517329697">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_HoverBot_Hurt_04" ID="{4FD3DEFF-2030-4606-8F4D-2E0F724311B3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00531"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.02735"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.01147"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.33096"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_HoverBot_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="773929756"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_HoverBot_Hurt_04" ID="{4FD3DEFF-2030-4606-8F4D-2E0F724311B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

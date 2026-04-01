@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ENEMY_HOVERBOT_HURT = 4067705073U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
     } // namespace EVENTS
