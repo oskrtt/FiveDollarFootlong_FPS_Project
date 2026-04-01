@@ -9,6 +9,7 @@
 						<ObjectRef Name="Player_Jump" ID="{F55559F0-75F8-4194-87F8-07D90DC22851}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{6EB1CA65-5C9E-4BE0-BE9E-6A700E734565}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Heal" ID="{FEE17958-E8CD-4DCF-B973-04EB180D5448}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

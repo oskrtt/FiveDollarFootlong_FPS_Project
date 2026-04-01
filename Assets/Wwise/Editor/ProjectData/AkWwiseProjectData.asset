@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584265293361467759
+    m_lastTime: -8584265254590610141
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584265293361352644
+    m_lastTime: -8584265254590758484
     List:
     - name: Enemy_HoverBot_Hurt
       guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
@@ -130,6 +130,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.52388334
       minDuration: 0.52388334
+    - name: Player_Heal
+      guid: 5879e1fecde8cf4db97304eb180d5448
+      id: 780312891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Heal
+        ObjectType: 3
+        guid: 5879e1fecde8cf4db97304eb180d5448
+      Path: Events\Default Work Unit\Player_Heal
+      maxAttenuation: 0
+      maxDuration: 1.3467574
+      minDuration: 1.3467574
     - name: Player_Hurt
       guid: 27d82d025b01024087c2839b25e82f6e
       id: 1068092414

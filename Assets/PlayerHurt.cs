@@ -5,6 +5,7 @@ public class PlayerHurt : MonoBehaviour
 {
     public AK.Wwise.Event hurtEvent;
     public AK.Wwise.Event deathEvent;
+    public AK.Wwise.Event healEvent;
 
     private Health health;
 
@@ -19,6 +20,7 @@ public class PlayerHurt : MonoBehaviour
         {
             health.OnDamaged += OnPlayerDamaged;
             health.OnDie += OnPlayerDeath;
+            health.OnHealed += OnPlayerHealed;
         }
     }
 
@@ -29,6 +31,7 @@ public class PlayerHurt : MonoBehaviour
         {
             health.OnDamaged -= OnPlayerDamaged;
             health.OnDie -= OnPlayerDeath;
+            health.OnHealed -= OnPlayerHealed;
         }
     }
 
@@ -40,6 +43,11 @@ public class PlayerHurt : MonoBehaviour
     void OnPlayerDeath()
     {
         deathEvent.Post(gameObject);
+    }
+
+    void OnPlayerHealed(float healAmount)
+    {
+        healEvent.Post(gameObject);
     }
 
 

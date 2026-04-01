@@ -23,6 +23,6 @@ public class PlayerJump : MonoBehaviour
 
     void Jump()
     {
-        AkSoundEngine.PostEvent("Player_Jump", gameObject);
+        jumpEvent.Post(gameObject);
     }
 }

@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Heal" ID="{FEE17958-E8CD-4DCF-B973-04EB180D5448}">
+					<ChildrenList>
+						<Action Name="" ID="{06BB422E-97B4-4995-99DF-937C15634DE3}" ShortID="474518121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player-heal" ID="{559DAAF4-A207-4802-8286-9C705BF98788}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

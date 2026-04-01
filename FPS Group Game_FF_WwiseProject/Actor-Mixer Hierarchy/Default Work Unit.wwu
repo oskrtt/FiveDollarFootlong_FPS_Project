@@ -366,6 +366,28 @@
 								<ActiveSource Name="513431-Henchman-Vocal-Pain-Wound-4-Male-Pain-Hurt-Fight-Grunt-Growl-Vocalization-Emote" ID="{2FD9F27C-6967-40CE-BF74-C87F9210B7EA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="player-heal" ID="{559DAAF4-A207-4802-8286-9C705BF98788}" ShortID="252791538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="338145-Male_vocalization_-relief_as_pain_ends_2" ID="{CDE918D1-695D-40F5-AD90-F62BD837C8F1}">
+									<Language>SFX</Language>
+									<AudioFile>338145-Male_vocalization_-relief_as_pain_ends_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="336694174"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="338145-Male_vocalization_-relief_as_pain_ends_2" ID="{CDE918D1-695D-40F5-AD90-F62BD837C8F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Enemy" ID="{C4C77502-BEA1-4266-AE57-544EDA724B0C}" ShortID="774523273">
