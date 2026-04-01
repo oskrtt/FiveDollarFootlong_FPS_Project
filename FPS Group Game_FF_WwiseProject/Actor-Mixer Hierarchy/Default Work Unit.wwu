@@ -338,6 +338,16 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="player-death" ID="{8044DF27-9E4F-4A0E-B7F7-B7153AB592BB}" ShortID="129439074">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Enemy" ID="{C4C77502-BEA1-4266-AE57-544EDA724B0C}" ShortID="774523273">
