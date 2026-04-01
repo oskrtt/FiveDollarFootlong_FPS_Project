@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	780312891	Player_Heal			\Default Work Unit\Player_Heal	
 	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
 	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
 	3083087645	Player_Death			\Default Work Unit\Player_Death	
@@ -10,6 +11,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	125288418	jump2	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\39\{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump2		117132
 	130119278	Enemy_HoverBot_Hurt_01	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\4E\{4EBA4E78-D635-C03A-1A03-0B4F1A9EFF78}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_01		96736
 	235591288	player-death	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\94\{943C45AB-E531-566D-4CDA-1C2F746B2E21}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-death		100680
+	336694174	player-heal	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\5E\{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-heal		118880
 	554260493	319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\69\{69409BBF-7CFF-02F4-6848-A955BE4730A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319782-EMOTE_George-Man-Pain_Hurt_Grunt_Small_02		35936
 	556407654	Enemy_HoverBot_Hurt_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\14\{146D7CCF-3946-B875-D779-6C38E9985A48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_02		68480
 	591485708	319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\68\{6815DD51-6231-CE9E-AF3F-A6E48C2AECC7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21		39008

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{491E585E-60EC-5B57-67D3-E4DBCF10C88E}",
+    "Hash": "{320F8428-15E9-A027-F08C-EB98E1EEF2C4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -54,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "513431-Henchman-Vocal-Pain-Wound-4-Male-Pain-Hurt-Fight-Grunt-Growl-Vocalization-Emote.wav",
       "CachePath": "94/{943C45AB-E531-566D-4CDA-1C2F746B2E21}.wem"
+     },
+     {
+      "Id": "336694174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "338145-Male_vocalization_-relief_as_pain_ends_2.wav",
+      "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
      },
      {
       "Id": "554260493",
@@ -191,6 +199,20 @@
       ]
      },
      {
+      "Id": "780312891",
+      "Name": "Player_Heal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Heal",
+      "GUID": "{FEE17958-E8CD-4DCF-B973-04EB180D5448}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3467574",
+      "DurationMax": "1.3467574",
+      "MediaRefs": [
+       {
+        "Id": "336694174"
+       }
+      ]
+     },
+     {
       "Id": "1068092414",
       "Name": "Player_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Hurt",
@@ -251,6 +273,6 @@
     ]
    }
   ],
-  "FileHash": "{D682D9E3-DD7E-B941-9303-2F57435008C9}"
+  "FileHash": "{77D525B1-F879-1D20-4DF9-F853F148487F}"
  }
 }
