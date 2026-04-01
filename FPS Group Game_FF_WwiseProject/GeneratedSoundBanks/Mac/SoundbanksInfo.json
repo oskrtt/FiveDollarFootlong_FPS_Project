@@ -56,11 +56,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-<<<<<<< develop
-    "Hash": "{D46E1A29-9B97-43A9-D819-183D02013BE0}",
-=======
-    "Hash": "{2F4FEAAD-E04A-1730-5D94-7FD6A8843EDB}",
->>>>>>> Added Player_Death in Wwise
+    "Hash": "{491E585E-60EC-5B57-67D3-E4DBCF10C88E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -90,21 +86,20 @@
       "CachePath": "39/{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem"
      },
      {
-<<<<<<< develop
       "Id": "130119278",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Hurt_01.wav",
       "CachePath": "4E/{4EBA4E78-D635-C03A-1A03-0B4F1A9EFF78}.wem"
-=======
-      "Id": "330169394",
+     },
+     {
+      "Id": "235591288",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "513431-Henchman-Vocal-Pain-Wound-4-Male-Pain-Hurt-Fight-Grunt-Growl-Vocalization-Emote.wav",
-      "CachePath": "0A/{0A5CAF9B-F510-73E9-9ABC-837CF4002FB9}.wem"
->>>>>>> Added Player_Death in Wwise
+      "CachePath": "94/{943C45AB-E531-566D-4CDA-1C2F746B2E21}.wem"
      },
      {
       "Id": "554260493",
@@ -205,7 +200,6 @@
     ],
     "Events": [
      {
-<<<<<<< develop
       "Id": "4067705073",
       "Name": "Enemy_HoverBot_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
@@ -225,18 +219,20 @@
        },
        {
         "Id": "1008970823"
-=======
+       }
+      ]
+     },
+     {
       "Id": "3083087645",
       "Name": "Player_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Death",
-      "GUID": "{A8569C01-54CA-45FF-A0BA-15C3301D6E8F}",
+      "GUID": "{6EB1CA65-5C9E-4BE0-BE9E-6A700E734565}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5269433",
-      "DurationMax": "0.5269433",
+      "DurationMin": "0.52388334",
+      "DurationMax": "0.52388334",
       "MediaRefs": [
        {
-        "Id": "330169394"
->>>>>>> Added Player_Death in Wwise
+        "Id": "235591288"
        }
       ]
      },
@@ -301,10 +297,6 @@
     ]
    }
   ],
-<<<<<<< develop
-  "FileHash": "{817A22CF-D5DF-70F1-D73B-9D1172985EBB}"
-=======
-  "FileHash": "{577912BF-7387-D92E-A128-C40CE4761587}"
->>>>>>> Added Player_Death in Wwise
+  "FileHash": "{6D2DAC70-B117-6637-1624-CFFC6C9FCE07}"
  }
 }
