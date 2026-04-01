@@ -4,6 +4,7 @@ using Unity.FPS.Game;
 public class PlayerHurt : MonoBehaviour
 {
     public AK.Wwise.Event hurtEvent;
+    public AK.Wwise.Event deathEvent;
 
     private Health health;
 
@@ -17,6 +18,7 @@ public class PlayerHurt : MonoBehaviour
         if (health != null)
         {
             health.OnDamaged += OnPlayerDamaged;
+            health.OnDie += OnPlayerDeath;
         }
     }
 
@@ -26,6 +28,7 @@ public class PlayerHurt : MonoBehaviour
         if (health != null)
         {
             health.OnDamaged -= OnPlayerDamaged;
+            health.OnDie -= OnPlayerDeath;
         }
     }
 
@@ -33,4 +36,11 @@ public class PlayerHurt : MonoBehaviour
     {
         hurtEvent.Post(gameObject);
     }
+
+    void OnPlayerDeath()
+    {
+        deathEvent.Post(gameObject);
+    }
+
+
 }

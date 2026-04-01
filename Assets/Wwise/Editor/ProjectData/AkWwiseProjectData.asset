@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 377d41dbbfe6f64eb0041be1f686a4ce
     GuidInternal: 
-    m_lastTime: -8584269323816028944
+    m_lastTime: -8584266967047754996
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 39991462d2d61d4b85436a40a0f6e0e8
     GuidInternal: 
-    m_lastTime: -8584269323817145987
+    m_lastTime: -8584266967048487003
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584267011545982520
+    m_lastTime: -8584265293361467759
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584267011546203758
+    m_lastTime: -8584265293361352644
     List:
+    - name: Enemy_HoverBot_Hurt
+      guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
+      id: 4067705073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot_Hurt
+        ObjectType: 3
+        guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
+      Path: Events\Default Work Unit\Enemy_HoverBot_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.5488962
+      minDuration: 0.2929736
+    - name: Player_Death
+      guid: 65cab16e9e5ce04bbe9e6a700e734565
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Death
+        ObjectType: 3
+        guid: 65cab16e9e5ce04bbe9e6a700e734565
+      Path: Events\Default Work Unit\Player_Death
+      maxAttenuation: 0
+      maxDuration: 0.52388334
+      minDuration: 0.52388334
     - name: Player_Hurt
       guid: 27d82d025b01024087c2839b25e82f6e
       id: 1068092414
@@ -142,7 +176,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584269323815882459
+    m_lastTime: -8584266967048771721
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -156,7 +190,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584269323815726730
+    m_lastTime: -8584266967047795163
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -170,7 +204,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: d51dc3041faad54eab156e4ddf5976df
     GuidInternal: 
-    m_lastTime: -8584269323816848913
+    m_lastTime: -8584266967047775076
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -184,9 +218,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 86861026b66ea348b8606a6b6638f205
     GuidInternal: 
-    m_lastTime: -8584269323814461917
+    m_lastTime: -8584266967047775076
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000008000000090000000a00000067000000
+  ExpandedFileSystemItemIds: 010000000200000003000000090000000c0000000d00000067000000
   ExpandedWaapiItemIds: 020000000500000008000000090000000a0000000c00000067000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
