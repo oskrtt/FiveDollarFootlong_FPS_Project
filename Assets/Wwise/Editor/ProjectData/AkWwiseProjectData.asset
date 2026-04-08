@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
       Path: Events\Default Work Unit\Enemy_HoverBot_Hurt
       maxAttenuation: 0
-      maxDuration: 0.5488962
-      minDuration: 0.2929736
+      maxDuration: 0.5985755
+      minDuration: 0.26865798
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
