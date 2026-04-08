@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{320F8428-15E9-A027-F08C-EB98E1EEF2C4}",
+    "Hash": "{E5F93002-4BA4-A329-AF15-FD7E1B69137D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -167,8 +167,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
       "GUID": "{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}",
       "DurationType": "OneShot",
-      "DurationMin": "0.2929736",
-      "DurationMax": "0.5488962",
+      "DurationMin": "0.26865798",
+      "DurationMax": "0.5985755",
       "MediaRefs": [
        {
         "Id": "130119278"
@@ -273,6 +273,6 @@
     ]
    }
   ],
-  "FileHash": "{D73B1F0D-A5A5-2E2F-425F-3EC9094AA681}"
+  "FileHash": "{C2A531D3-C754-31C9-003E-40069A72E498}"
  }
 }
