@@ -56,11 +56,19 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{E5F93002-4BA4-A329-AF15-FD7E1B69137D}",
+    "Hash": "{BCAB507D-EDF4-E491-715D-8715C4CCF238}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "40759816",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_04.wav",
+      "CachePath": "0C/{0C406FEF-A2C0-3840-5D9C-4DEE9EAD0981}.wem"
+     },
      {
       "Id": "73624708",
       "Language": "SFX",
@@ -102,12 +110,28 @@
       "CachePath": "94/{943C45AB-E531-566D-4CDA-1C2F746B2E21}.wem"
      },
      {
+      "Id": "315246706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Destroy_01.wav",
+      "CachePath": "76/{7666D1D6-ABC3-146E-914D-94A701ADEDBC}.wem"
+     },
+     {
       "Id": "336694174",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "338145-Male_vocalization_-relief_as_pain_ends_2.wav",
       "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
+     },
+     {
+      "Id": "468259415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_03.wav",
+      "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
      },
      {
       "Id": "554260493",
@@ -132,6 +156,14 @@
       "Location": "Memory",
       "ShortName": "319778-EMOTE_George-Man-Pain_Hurt_Grunt_Small_21.wav",
       "CachePath": "68/{6815DD51-6231-CE9E-AF3F-A6E48C2AECC7}.wem"
+     },
+     {
+      "Id": "678065201",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Alerted_01.wav",
+      "CachePath": "C1/{C16CDC2C-0D8F-0C93-9874-52FE6415B618}.wem"
      },
      {
       "Id": "707688991",
@@ -166,6 +198,14 @@
       "CachePath": "AE/{AE641FDB-7C24-0E26-2823-FEDC286B78BB}.wem"
      },
      {
+      "Id": "861104254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_01.wav",
+      "CachePath": "F3/{F3AF9B3C-7969-ADFE-AAC2-473ABAA9087B}.wem"
+     },
+     {
       "Id": "888030220",
       "Language": "SFX",
       "Streaming": "false",
@@ -180,6 +220,14 @@
       "Location": "Memory",
       "ShortName": "319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12.wav",
       "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
+     },
+     {
+      "Id": "1001351414",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_02.wav",
+      "CachePath": "08/{084D0E74-A1E6-0DFE-3A7C-9DFE8734EDD3}.wem"
      },
      {
       "Id": "1007893926",
@@ -208,9 +256,37 @@
     ],
     "Events": [
      {
+      "Id": "212203887",
+      "Name": "Enemy_HoverBot_Alerted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot\\Enemy_HoverBot_Alerted",
+      "GUID": "{2E793026-65E1-4D03-97E6-90C2C00EB9AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7654869",
+      "DurationMax": "0.96445304",
+      "MediaRefs": [
+       {
+        "Id": "678065201"
+       }
+      ]
+     },
+     {
+      "Id": "2865467360",
+      "Name": "Enemy_HoverBot_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot\\Enemy_HoverBot_Destroy",
+      "GUID": "{567B1B7F-5EF5-4288-A5D1-7159253423E5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.62508124",
+      "DurationMax": "0.787553",
+      "MediaRefs": [
+       {
+        "Id": "315246706"
+       }
+      ]
+     },
+     {
       "Id": "4067705073",
       "Name": "Enemy_HoverBot_Hurt",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot\\Enemy_HoverBot_Hurt",
       "GUID": "{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}",
       "DurationType": "OneShot",
       "DurationMin": "0.26865798",
@@ -227,6 +303,29 @@
        },
        {
         "Id": "1008970823"
+       }
+      ]
+     },
+     {
+      "Id": "285818559",
+      "Name": "Enemy_HoverBot_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot\\Enemy_HoverBot_Shoot",
+      "GUID": "{94A9FEB0-2249-480A-9BD1-3B81AE988DE3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29732814",
+      "DurationMax": "0.50021386",
+      "MediaRefs": [
+       {
+        "Id": "40759816"
+       },
+       {
+        "Id": "468259415"
+       },
+       {
+        "Id": "861104254"
+       },
+       {
+        "Id": "1001351414"
        }
       ]
      },
@@ -319,6 +418,6 @@
     ]
    }
   ],
-  "FileHash": "{0A7F6077-DBE3-7F08-BD15-967121FCA1F9}"
+  "FileHash": "{120FD564-3050-5D08-AF7E-AA95CC421D98}"
  }
 }

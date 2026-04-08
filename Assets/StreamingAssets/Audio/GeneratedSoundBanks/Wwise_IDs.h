@@ -13,7 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ENEMY_HOVERBOT_ALERTED = 212203887U;
+        static const AkUniqueID ENEMY_HOVERBOT_DESTROY = 2865467360U;
         static const AkUniqueID ENEMY_HOVERBOT_HURT = 4067705073U;
+        static const AkUniqueID ENEMY_HOVERBOT_SHOOT = 285818559U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_HEAL = 780312891U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;
