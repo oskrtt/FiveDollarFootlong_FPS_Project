@@ -25,17 +25,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Enemy_HoverBot_Hurt" ID="{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}">
-					<ChildrenList>
-						<Action Name="" ID="{4649B98B-52AB-41DB-A288-865D00BC3E69}" ShortID="872176325">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{4CFF9B33-E049-4B36-AB12-514F95EC32E6}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Player_Death" ID="{6EB1CA65-5C9E-4BE0-BE9E-6A700E734565}">
 					<ChildrenList>
 						<Action Name="" ID="{55AD2EEA-E287-4763-BFDF-471BA770FD87}" ShortID="229294816">
@@ -58,6 +47,58 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Enemy_HoverBot" ID="{EC8D264D-B45C-4416-A3DE-0DA5550F571B}" ShortID="797865892">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Enemy_HoverBot_Alerted" ID="{2E793026-65E1-4D03-97E6-90C2C00EB9AD}">
+							<ChildrenList>
+								<Action Name="" ID="{1AA97606-3604-4AE8-9944-E1F972FA0590}" ShortID="182509045">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_HoverBot_Alerted" ID="{54E44D89-6A89-4AC8-8738-694BA7B50592}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_HoverBot_Destroy" ID="{567B1B7F-5EF5-4288-A5D1-7159253423E5}">
+							<ChildrenList>
+								<Action Name="" ID="{D22374BF-45A6-4C14-BE6D-AB1F1A35D43D}" ShortID="830883943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_HoverBot_Destroy" ID="{2FE9DFC1-88FF-4435-8582-9A9F0C100DBD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_HoverBot_Hurt" ID="{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}">
+							<ChildrenList>
+								<Action Name="" ID="{4649B98B-52AB-41DB-A288-865D00BC3E69}" ShortID="872176325">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{4CFF9B33-E049-4B36-AB12-514F95EC32E6}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_HoverBot_Shoot" ID="{94A9FEB0-2249-480A-9BD1-3B81AE988DE3}">
+							<ChildrenList>
+								<Action Name="" ID="{4DD6D2A8-BB54-41BD-8512-6417F29EA32B}" ShortID="6584663">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy_HoverBot_Shoot" ID="{680F1D4C-8287-4A33-8F6D-D021BC5DCC50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
