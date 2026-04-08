@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
 	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
 	3083087645	Player_Death			\Default Work Unit\Player_Death	
+	3783202364	Launcher_Pickup			\Default Work Unit\Launcher_Pickup	
 	4067705073	Enemy_HoverBot_Hurt			\Default Work Unit\Enemy_HoverBot_Hurt	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -19,6 +20,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	739805729	jump5	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\26\{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump5		94512
 	773929756	Enemy_HoverBot_Hurt_04	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\55\{552FA85C-23FF-CD49-3127-620A53D29D56}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_04		61436
 	842355714	319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\AE\{AE641FDB-7C24-0E26-2823-FEDC286B78BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319776-EMOTE_George-Man-Pain_Hurt_Grunt_Small_40		48736
+	877655475	launcher-pickup	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\16\{16B4CE77-9E6E-CBC0-7B6D-7C44AE908974}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\launcher-pickup		105700
 	888030220	jump3	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\FC\{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump3		119180
 	892649398	319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\61\{61629492-B1D6-AB8D-D8C6-803294990513}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12		30048
 	1007893926	319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\5A\{5ADEEFF0-2E1B-10E7-CEC0-02E947B82E63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02		40288

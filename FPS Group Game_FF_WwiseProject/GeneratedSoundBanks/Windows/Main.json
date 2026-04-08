@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{320F8428-15E9-A027-F08C-EB98E1EEF2C4}",
+    "Hash": "{2194DC24-FD94-8CE6-8521-5799D0113BE6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -120,6 +120,14 @@
       "CachePath": "AE/{AE641FDB-7C24-0E26-2823-FEDC286B78BB}.wem"
      },
      {
+      "Id": "877655475",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "257558-Mechanism_-AssaultRifle-PickUp-003.wav",
+      "CachePath": "16/{16B4CE77-9E6E-CBC0-7B6D-7C44AE908974}.wem"
+     },
+     {
       "Id": "888030220",
       "Language": "SFX",
       "Streaming": "false",
@@ -167,8 +175,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
       "GUID": "{70CBD83F-F5E9-4B1F-BED0-3FE90D313CB7}",
       "DurationType": "OneShot",
-      "DurationMin": "0.2929736",
-      "DurationMax": "0.5488962",
+      "DurationMin": "0.26865798",
+      "DurationMax": "0.5985755",
       "MediaRefs": [
        {
         "Id": "130119278"
@@ -181,6 +189,20 @@
        },
        {
         "Id": "1008970823"
+       }
+      ]
+     },
+     {
+      "Id": "3783202364",
+      "Name": "Launcher_Pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Launcher_Pickup",
+      "GUID": "{CE4A65CA-6F16-4F81-B1FC-7DAD35B3FD24}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.55001",
+      "DurationMax": "0.55001",
+      "MediaRefs": [
+       {
+        "Id": "877655475"
        }
       ]
      },
@@ -273,6 +295,6 @@
     ]
    }
   ],
-  "FileHash": "{77D525B1-F879-1D20-4DF9-F853F148487F}"
+  "FileHash": "{0BBD2B8F-4658-5E2C-11AB-C33BE8985F3C}"
  }
 }

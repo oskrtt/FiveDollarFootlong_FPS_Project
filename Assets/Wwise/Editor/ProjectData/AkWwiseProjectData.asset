@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584261824306715116
+    m_lastTime: -8584259242654498594
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584261824307060273
+    m_lastTime: -8584259242654145449
     List:
     - name: Enemy_HoverBot_Hurt
       guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
@@ -111,8 +111,25 @@ MonoBehaviour:
         guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
       Path: Events\Default Work Unit\Enemy_HoverBot_Hurt
       maxAttenuation: 0
-      maxDuration: 0.5488962
-      minDuration: 0.2929736
+      maxDuration: 0.5985755
+      minDuration: 0.26865798
+    - name: Launcher_Pickup
+      guid: ca654ace166f814fb1fc7dad35b3fd24
+      id: 3783202364
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Launcher_Pickup
+        ObjectType: 3
+        guid: ca654ace166f814fb1fc7dad35b3fd24
+      Path: Events\Default Work Unit\Launcher_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.55001
+      minDuration: 0.55001
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645

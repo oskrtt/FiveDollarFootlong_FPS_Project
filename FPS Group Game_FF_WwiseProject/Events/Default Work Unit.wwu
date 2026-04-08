@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Launcher_Pickup" ID="{CE4A65CA-6F16-4F81-B1FC-7DAD35B3FD24}">
+					<ChildrenList>
+						<Action Name="" ID="{129EC3D2-62CC-4810-B387-ADA0AD5CB978}" ShortID="13279430">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="launcher-pickup" ID="{A83138A8-E0EB-4A2F-9105-A5656113FE0E}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

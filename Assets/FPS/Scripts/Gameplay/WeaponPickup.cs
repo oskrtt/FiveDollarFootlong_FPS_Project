@@ -4,13 +4,17 @@ using UnityEngine;
 namespace Unity.FPS.Gameplay
 {
     public class WeaponPickup : Pickup
-    {
+    {    
         [Tooltip("The prefab for the weapon that will be added to the player on pickup")]
         public WeaponController WeaponPrefab;
+            
+        PickupWwisePlayer wwisePlayer;
 
         protected override void Start()
         {
             base.Start();
+            
+            wwisePlayer = GetComponent<PickupWwisePlayer>();
 
             // Set all children layers to default (to prefent seeing weapons through meshes)
             foreach (Transform t in GetComponentsInChildren<Transform>())
@@ -22,11 +26,17 @@ namespace Unity.FPS.Gameplay
 
         protected override void OnPicked(PlayerCharacterController byPlayer)
         {
-            PlayerWeaponsManager playerWeaponsManager = byPlayer.GetComponent<PlayerWeaponsManager>();
+
+        PlayerWeaponsManager playerWeaponsManager = byPlayer.GetComponent<PlayerWeaponsManager>();
             if (playerWeaponsManager)
             {
                 if (playerWeaponsManager.AddWeapon(WeaponPrefab))
                 {
+                    if (wwisePlayer != null)
+                    {
+                        wwisePlayer.PlayPickup(byPlayer.gameObject);
+                    }
+                                        
                     // Handle auto-switching to weapon if no weapons currently
                     if (playerWeaponsManager.GetActiveWeapon() == null)
                     {

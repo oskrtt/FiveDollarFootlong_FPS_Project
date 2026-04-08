@@ -617,6 +617,51 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Weapons" ID="{45632523-FCC0-46B9-9178-E2142B0458EB}" ShortID="352268888">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="launcher-pickup" ID="{A83138A8-E0EB-4A2F-9105-A5656113FE0E}" ShortID="671960251">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="257558-Mechanism_-AssaultRifle-PickUp-003" ID="{B0C16A94-D91A-4D35-A987-AC82B42C5B5C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0077"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.19404"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.01155"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.56156"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>257558-Mechanism_-AssaultRifle-PickUp-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877655475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="257558-Mechanism_-AssaultRifle-PickUp-003" ID="{B0C16A94-D91A-4D35-A987-AC82B42C5B5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
