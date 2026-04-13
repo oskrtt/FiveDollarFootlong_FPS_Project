@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584255766673036084
+=======
+    m_lastTime: -8584259224137550837
+>>>>>>> Stashed changes
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,11 +98,18 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584255766367874242
     List:
     - name: Launcher_Pickup
       guid: ca654ace166f814fb1fc7dad35b3fd24
       id: 3783202364
+=======
+    m_lastTime: -8584259224137856679
+    List:
+    - name: Enemy_HoverBot
+      guid: 4d268dec5cb41644a3de0da5550f571b
+      id: 3084599
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,6 +117,65 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot
+        ObjectType: 4
+        guid: 4d268dec5cb41644a3de0da5550f571b
+      Path: Events\Default Work Unit\Enemy_HoverBot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemy_HoverBot_Alerted
+      guid: 2630792ee165034d97e690c2c00eb9ad
+      id: 212203887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot
+        ObjectType: 4
+        guid: 4d268dec5cb41644a3de0da5550f571b
+      - ElementName: Enemy_HoverBot_Alerted
+        ObjectType: 3
+        guid: 2630792ee165034d97e690c2c00eb9ad
+      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Alerted
+      maxAttenuation: 0
+      maxDuration: 0.96445304
+      minDuration: 0.7654869
+    - name: Enemy_HoverBot_Destroy
+      guid: 7f1b7b56f55e8842a5d17159253423e5
+      id: 2865467360
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot
+        ObjectType: 4
+        guid: 4d268dec5cb41644a3de0da5550f571b
+      - ElementName: Enemy_HoverBot_Destroy
+        ObjectType: 3
+        guid: 7f1b7b56f55e8842a5d17159253423e5
+      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Destroy
+      maxAttenuation: 0
+      maxDuration: 0.787553
+      minDuration: 0.62508124
+    - name: Enemy_HoverBot_Hurt
+      guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
+      id: 4067705073
+>>>>>>> Stashed changes
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+<<<<<<< Updated upstream
       - ElementName: Launcher_Pickup
         ObjectType: 3
         guid: ca654ace166f814fb1fc7dad35b3fd24
@@ -113,6 +183,38 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.55001
       minDuration: 0.55001
+=======
+      - ElementName: Enemy_HoverBot
+        ObjectType: 4
+        guid: 4d268dec5cb41644a3de0da5550f571b
+      - ElementName: Enemy_HoverBot_Hurt
+        ObjectType: 3
+        guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
+      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.5985755
+      minDuration: 0.26865798
+    - name: Enemy_HoverBot_Shoot
+      guid: b0fea99449220a489bd13b81ae988de3
+      id: 285818559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot
+        ObjectType: 4
+        guid: 4d268dec5cb41644a3de0da5550f571b
+      - ElementName: Enemy_HoverBot_Shoot
+        ObjectType: 3
+        guid: b0fea99449220a489bd13b81ae988de3
+      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.50021386
+      minDuration: 0.29732814
+>>>>>>> Stashed changes
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
