@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{E84EEF2D-48C7-4DC9-FCF3-0E34B38861CB}",
+    "Hash": "{BEC4C43C-77CC-BAF0-E916-D0329E446F67}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
       "CachePath": "D2/{D2B27FE9-E803-116A-6881-865435840412}.wem"
+     },
+     {
+      "Id": "115217501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Shoot_04.wav",
+      "CachePath": "0B/{0B18D75B-7067-44F7-413E-E44BCE04E558}.wem"
      },
      {
       "Id": "125288418",
@@ -88,6 +96,14 @@
       "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
      },
      {
+      "Id": "517251212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Shoot_03.wav",
+      "CachePath": "82/{822A3E1A-2BC6-A366-60FE-F011A7B56A19}.wem"
+     },
+     {
       "Id": "554260493",
       "Language": "SFX",
       "Streaming": "false",
@@ -112,6 +128,14 @@
       "CachePath": "68/{6815DD51-6231-CE9E-AF3F-A6E48C2AECC7}.wem"
      },
      {
+      "Id": "657389238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Alert.wav",
+      "CachePath": "41/{41101303-DE23-EC2B-236F-D9622F2B73C0}.wem"
+     },
+     {
       "Id": "678065201",
       "Language": "SFX",
       "Streaming": "false",
@@ -126,6 +150,22 @@
       "Location": "Memory",
       "ShortName": "319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01.wav",
       "CachePath": "0C/{0C3D371A-EACC-9EE7-9F8A-A00167B01AC0}.wem"
+     },
+     {
+      "Id": "728491709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Shoot_01.wav",
+      "CachePath": "AC/{AC8522D6-12EA-8870-796E-184C806D08F5}.wem"
+     },
+     {
+      "Id": "736278118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Shoot_02.wav",
+      "CachePath": "08/{08B1A6AD-EABF-124B-718B-3C2B4C4FCEEF}.wem"
      },
      {
       "Id": "739805729",
@@ -292,6 +332,43 @@
       ]
      },
      {
+      "Id": "537555803",
+      "Name": "Enemy_Turret_Alert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Alert",
+      "GUID": "{559E8348-B215-4957-8562-A43304DC4DAB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6564944",
+      "DurationMax": "0.8271311",
+      "MediaRefs": [
+       {
+        "Id": "657389238"
+       }
+      ]
+     },
+     {
+      "Id": "3153550024",
+      "Name": "Enemy_Turret_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Shoot",
+      "GUID": "{1945BD28-6574-4D45-8295-9FF5B5EA4A08}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1218251",
+      "DurationMax": "0.5252359",
+      "MediaRefs": [
+       {
+        "Id": "115217501"
+       },
+       {
+        "Id": "517251212"
+       },
+       {
+        "Id": "728491709"
+       },
+       {
+        "Id": "736278118"
+       }
+      ]
+     },
+     {
       "Id": "3783202364",
       "Name": "Launcher_Pickup",
       "ObjectPath": "\\Events\\Default Work Unit\\Launcher_Pickup",
@@ -394,6 +471,6 @@
     ]
    }
   ],
-  "FileHash": "{E829C4C6-3D7E-2B5D-6680-812CAC616C62}"
+  "FileHash": "{631AD6DD-517E-F9CF-B1C1-92865EA21544}"
  }
 }

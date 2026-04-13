@@ -917,6 +917,262 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Enemy_Turret_Alert" ID="{2E277135-8EBB-4C8A-A365-9719B4FB580A}" ShortID="317727606">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{265A182E-9A22-439C-96EC-196A5AE5A5FF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy_Turret_Alert" ID="{5E471D84-4CAA-413A-A50E-38536E581A2E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.03878"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.03878"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.34902"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.08591"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Enemy_Turret_Alert.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="657389238"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy_Turret_Alert" ID="{5E471D84-4CAA-413A-A50E-38536E581A2E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Enemy_Turret_Shoot" ID="{CC8BAFE0-E38F-4C7F-BAFE-4E82668753FD}" ShortID="121884770">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A2893BC4-D73B-4AAD-8AE0-A1F9C53AE39D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Enemy_Turret_Shoot_04" ID="{D2287F96-357C-4024-9532-1CEA7C10F727}" ShortID="948070550">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E51D0F1-9B31-4197-9EC4-F1879F90B691}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Turret_Shoot_04" ID="{457580D5-1970-40D6-8AA3-EE5792D64818}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00868"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.03519"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00693"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.16042"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Turret_Shoot_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115217501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Turret_Shoot_04" ID="{457580D5-1970-40D6-8AA3-EE5792D64818}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Turret_Shoot_03" ID="{E7CAAFF1-812D-499E-A018-DAD31D25004A}" ShortID="7753093">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{26FF5E84-3789-4C73-9E1B-88D0AD9F2B79}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Turret_Shoot_03" ID="{1DD47F57-C76A-4F94-9194-92AE4FB485BF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.01646"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.10606"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.41688"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Turret_Shoot_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517251212"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Turret_Shoot_03" ID="{1DD47F57-C76A-4F94-9194-92AE4FB485BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Turret_Shoot_02" ID="{8E8F3A1B-5C45-476C-8BBC-0857EB61F521}" ShortID="286504895">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{18D9A2E9-D135-4446-A1B5-8BB8305251F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Turret_Shoot_02" ID="{8E76A72C-FFB6-4909-A694-2E9A1628AB31}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.01006"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.03521"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.01294"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.24132"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Turret_Shoot_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="736278118"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Turret_Shoot_02" ID="{8E76A72C-FFB6-4909-A694-2E9A1628AB31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Turret_Shoot_01" ID="{88A57808-126D-4405-8DC8-5506EC47C8E0}" ShortID="1007182915">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FFF08E06-A215-4DD5-BD24-0CF72F1CC97C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Turret_Shoot_01" ID="{7062F64D-CEA1-4691-842B-A1612CBA0380}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.01944"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.05217"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.24038"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Turret_Shoot_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="728491709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Turret_Shoot_01" ID="{7062F64D-CEA1-4691-842B-A1612CBA0380}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Weapons" ID="{45632523-FCC0-46B9-9178-E2142B0458EB}" ShortID="352268888">

@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID ENEMY_HOVERBOT_DESTROY = 2865467360U;
         static const AkUniqueID ENEMY_HOVERBOT_HURT = 4067705073U;
         static const AkUniqueID ENEMY_HOVERBOT_SHOOT = 285818559U;
+        static const AkUniqueID ENEMY_TURRET_ALERT = 537555803U;
+        static const AkUniqueID ENEMY_TURRET_SHOOT = 3153550024U;
         static const AkUniqueID LAUNCHER_PICKUP = 3783202364U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_HEAL = 780312891U;

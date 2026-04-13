@@ -102,6 +102,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Enemy_Turret_Alert" ID="{559E8348-B215-4957-8562-A43304DC4DAB}">
+					<ChildrenList>
+						<Action Name="" ID="{52034E74-B56F-4788-A290-8E859C81E05A}" ShortID="450800833">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Turret_Alert" ID="{2E277135-8EBB-4C8A-A365-9719B4FB580A}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_Turret_Shoot" ID="{1945BD28-6574-4D45-8295-9FF5B5EA4A08}">
+					<ChildrenList>
+						<Action Name="" ID="{F0DE2682-E24A-4400-ACF6-4BF9A1C013D8}" ShortID="864794147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Turret_Shoot" ID="{CC8BAFE0-E38F-4C7F-BAFE-4E82668753FD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
