@@ -58,6 +58,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Enemy_HoverBot_Hurt" ID="{B73A7990-FFF9-4CE2-9A80-FE629E548CED}">
+					<ChildrenList>
+						<Action Name="" ID="{D2DD7F34-D41B-4349-96D8-4C4F37D1D3AB}" ShortID="445372548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Hurt" ID="{4CFF9B33-E049-4B36-AB12-514F95EC32E6}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_HoverBot_Alert" ID="{E93268A8-B0F4-4381-9F34-20BE5A536216}">
+					<ChildrenList>
+						<Action Name="" ID="{12629A4B-4A1D-4850-8B28-E17313CA730F}" ShortID="802637841">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Alert" ID="{54E44D89-6A89-4AC8-8738-694BA7B50592}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_HoverBot_Shoot" ID="{00062378-A6D8-408E-8035-2ED17E658515}">
+					<ChildrenList>
+						<Action Name="" ID="{113D6D8E-504F-41C9-94AC-ED33DC2BC7CB}" ShortID="969128555">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Shoot" ID="{680F1D4C-8287-4A33-8F6D-D021BC5DCC50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_HoverBot_Destroy" ID="{50050026-7D23-4A93-905F-EC1CCC69DC96}">
+					<ChildrenList>
+						<Action Name="" ID="{50817423-7B77-42B5-9679-BF64D4EF24B1}" ShortID="441495120">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_HoverBot_Destroy" ID="{2FE9DFC1-88FF-4435-8582-9A9F0C100DBD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

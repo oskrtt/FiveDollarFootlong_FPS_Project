@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{21B8DFF1-DCE1-5AEB-EC8D-FAE3466D1224}",
+    "Hash": "{E84EEF2D-48C7-4DC9-FCF3-0E34B38861CB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -92,6 +92,14 @@
       "Location": "Memory",
       "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
       "CachePath": "39/{390369FD-6115-EF33-DD55-3951F8CB7ACA}.wem"
+     },
+     {
+      "Id": "130119278",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_01.wav",
+      "CachePath": "4E/{4EBA4E78-D635-C03A-1A03-0B4F1A9EFF78}.wem"
      },
      {
       "Id": "235591288",
@@ -134,6 +142,14 @@
       "CachePath": "69/{69409BBF-7CFF-02F4-6848-A955BE4730A5}.wem"
      },
      {
+      "Id": "556407654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_02.wav",
+      "CachePath": "14/{146D7CCF-3946-B875-D779-6C38E9985A48}.wem"
+     },
+     {
       "Id": "591485708",
       "Language": "SFX",
       "Streaming": "false",
@@ -164,6 +180,14 @@
       "Location": "Memory",
       "ShortName": "1253904.audio-WHSH-Whoosh_Low_01.wav",
       "CachePath": "26/{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem"
+     },
+     {
+      "Id": "773929756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_04.wav",
+      "CachePath": "55/{552FA85C-23FF-CD49-3127-620A53D29D56}.wem"
      },
      {
       "Id": "842355714",
@@ -222,6 +246,14 @@
       "CachePath": "5A/{5ADEEFF0-2E1B-10E7-CEC0-02E947B82E63}.wem"
      },
      {
+      "Id": "1008970823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_03.wav",
+      "CachePath": "DB/{DB7DB083-C9DC-1318-CEE6-AD1299774817}.wem"
+     },
+     {
       "Id": "1064356431",
       "Language": "SFX",
       "Streaming": "false",
@@ -231,6 +263,80 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3796910724",
+      "Name": "Enemy_HoverBot_Alert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Alert",
+      "GUID": "{E93268A8-B0F4-4381-9F34-20BE5A536216}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7654869",
+      "DurationMax": "0.96445304",
+      "MediaRefs": [
+       {
+        "Id": "678065201"
+       }
+      ]
+     },
+     {
+      "Id": "2865467360",
+      "Name": "Enemy_HoverBot_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Destroy",
+      "GUID": "{50050026-7D23-4A93-905F-EC1CCC69DC96}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.62508124",
+      "DurationMax": "0.787553",
+      "MediaRefs": [
+       {
+        "Id": "315246706"
+       }
+      ]
+     },
+     {
+      "Id": "4067705073",
+      "Name": "Enemy_HoverBot_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Hurt",
+      "GUID": "{B73A7990-FFF9-4CE2-9A80-FE629E548CED}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26865798",
+      "DurationMax": "0.5985755",
+      "MediaRefs": [
+       {
+        "Id": "130119278"
+       },
+       {
+        "Id": "556407654"
+       },
+       {
+        "Id": "773929756"
+       },
+       {
+        "Id": "1008970823"
+       }
+      ]
+     },
+     {
+      "Id": "285818559",
+      "Name": "Enemy_HoverBot_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_HoverBot_Shoot",
+      "GUID": "{00062378-A6D8-408E-8035-2ED17E658515}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29732814",
+      "DurationMax": "0.50021386",
+      "MediaRefs": [
+       {
+        "Id": "40759816"
+       },
+       {
+        "Id": "468259415"
+       },
+       {
+        "Id": "861104254"
+       },
+       {
+        "Id": "1001351414"
+       }
+      ]
+     },
      {
       "Id": "3783202364",
       "Name": "Launcher_Pickup",
@@ -334,6 +440,6 @@
     ]
    }
   ],
-  "FileHash": "{1EC352BC-B290-95D8-1CD1-F20F7ADD34CB}"
+  "FileHash": "{62008F44-B695-0BA8-5973-372927E972E9}"
  }
 }

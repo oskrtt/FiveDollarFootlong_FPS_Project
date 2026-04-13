@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 377d41dbbfe6f64eb0041be1f686a4ce
     GuidInternal: 
-    m_lastTime: -8584266967047754996
+    m_lastTime: -8584267041346495240
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 39991462d2d61d4b85436a40a0f6e0e8
     GuidInternal: 
-    m_lastTime: -8584266967048487003
+    m_lastTime: -8584267041347291631
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,11 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8584255766673036084
-=======
-    m_lastTime: -8584259224137550837
->>>>>>> Stashed changes
+    m_lastTime: -8584255603024748206
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -98,18 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8584255766367874242
+    m_lastTime: -8584255603025031859
     List:
     - name: Launcher_Pickup
       guid: ca654ace166f814fb1fc7dad35b3fd24
       id: 3783202364
-=======
-    m_lastTime: -8584259224137856679
-    List:
-    - name: Enemy_HoverBot
-      guid: 4d268dec5cb41644a3de0da5550f571b
-      id: 3084599
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -117,65 +106,6 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 07b4809c7e0f0943b75cea85c7f55350
-      - ElementName: Enemy_HoverBot
-        ObjectType: 4
-        guid: 4d268dec5cb41644a3de0da5550f571b
-      Path: Events\Default Work Unit\Enemy_HoverBot
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Enemy_HoverBot_Alerted
-      guid: 2630792ee165034d97e690c2c00eb9ad
-      id: 212203887
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 07b4809c7e0f0943b75cea85c7f55350
-      - ElementName: Enemy_HoverBot
-        ObjectType: 4
-        guid: 4d268dec5cb41644a3de0da5550f571b
-      - ElementName: Enemy_HoverBot_Alerted
-        ObjectType: 3
-        guid: 2630792ee165034d97e690c2c00eb9ad
-      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Alerted
-      maxAttenuation: 0
-      maxDuration: 0.96445304
-      minDuration: 0.7654869
-    - name: Enemy_HoverBot_Destroy
-      guid: 7f1b7b56f55e8842a5d17159253423e5
-      id: 2865467360
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 07b4809c7e0f0943b75cea85c7f55350
-      - ElementName: Enemy_HoverBot
-        ObjectType: 4
-        guid: 4d268dec5cb41644a3de0da5550f571b
-      - ElementName: Enemy_HoverBot_Destroy
-        ObjectType: 3
-        guid: 7f1b7b56f55e8842a5d17159253423e5
-      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Destroy
-      maxAttenuation: 0
-      maxDuration: 0.787553
-      minDuration: 0.62508124
-    - name: Enemy_HoverBot_Hurt
-      guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
-      id: 4067705073
->>>>>>> Stashed changes
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 07b4809c7e0f0943b75cea85c7f55350
-<<<<<<< Updated upstream
       - ElementName: Launcher_Pickup
         ObjectType: 3
         guid: ca654ace166f814fb1fc7dad35b3fd24
@@ -183,38 +113,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.55001
       minDuration: 0.55001
-=======
-      - ElementName: Enemy_HoverBot
-        ObjectType: 4
-        guid: 4d268dec5cb41644a3de0da5550f571b
-      - ElementName: Enemy_HoverBot_Hurt
-        ObjectType: 3
-        guid: 3fd8cb70e9f51f4bbed03fe90d313cb7
-      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Hurt
-      maxAttenuation: 0
-      maxDuration: 0.5985755
-      minDuration: 0.26865798
-    - name: Enemy_HoverBot_Shoot
-      guid: b0fea99449220a489bd13b81ae988de3
-      id: 285818559
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 07b4809c7e0f0943b75cea85c7f55350
-      - ElementName: Enemy_HoverBot
-        ObjectType: 4
-        guid: 4d268dec5cb41644a3de0da5550f571b
-      - ElementName: Enemy_HoverBot_Shoot
-        ObjectType: 3
-        guid: b0fea99449220a489bd13b81ae988de3
-      Path: Events\Default Work Unit\Enemy_HoverBot\Enemy_HoverBot_Shoot
-      maxAttenuation: 0
-      maxDuration: 0.50021386
-      minDuration: 0.29732814
->>>>>>> Stashed changes
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
@@ -295,7 +193,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584266967048771721
+    m_lastTime: -8584267041348032733
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -309,7 +207,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584266967047795163
+    m_lastTime: -8584267041346515255
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -323,7 +221,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: d51dc3041faad54eab156e4ddf5976df
     GuidInternal: 
-    m_lastTime: -8584266967047775076
+    m_lastTime: -8584267041346515255
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -337,11 +235,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 86861026b66ea348b8606a6b6638f205
     GuidInternal: 
-    m_lastTime: -8584266967047775076
+    m_lastTime: -8584267041346505235
     List: []
-  ExpandedFileSystemItemIds: 010000000200000003000000090000000c0000000d0000000e00000067000000
-  ExpandedWaapiItemIds: 020000000500000008000000090000000a0000000c00000067000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

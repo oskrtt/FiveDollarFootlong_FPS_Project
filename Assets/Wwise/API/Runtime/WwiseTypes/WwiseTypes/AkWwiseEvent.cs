@@ -44,7 +44,9 @@ namespace AK.Wwise
 
 		public override WwiseObjectType WwiseObjectType { get { return WwiseObjectType.Event; } }
 
-		private void VerifyPlayingID(uint playingId)
+        public int Length { get; set; }
+
+        private void VerifyPlayingID(uint playingId)
 		{
 #if UNITY_EDITOR
 			if (playingId == AkUnitySoundEngine.AK_INVALID_PLAYING_ID && AkUnitySoundEngine.IsInitialized())

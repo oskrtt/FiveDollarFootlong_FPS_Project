@@ -664,7 +664,7 @@
 								<ActiveSource Name="Enemy_HoverBot_Destroy" ID="{7A31EB41-948B-43B0-9437-FB1AD0D206B1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Enemy_HoverBot_Alerted" ID="{54E44D89-6A89-4AC8-8738-694BA7B50592}" ShortID="672842863">
+						<Sound Name="Enemy_HoverBot_Alert" ID="{54E44D89-6A89-4AC8-8738-694BA7B50592}" ShortID="672842863">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -679,6 +679,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -689,7 +694,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Enemy_HoverBot_Alerted" ID="{7AD37C6E-4082-4ACA-99CD-7F27FA20D02E}">
+								<AudioFileSource Name="Enemy_HoverBot_Alert" ID="{7AD37C6E-4082-4ACA-99CD-7F27FA20D02E}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.0653"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.17548"/>
@@ -705,7 +710,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Enemy_HoverBot_Alerted" ID="{7AD37C6E-4082-4ACA-99CD-7F27FA20D02E}" Platform="Linked"/>
+								<ActiveSource Name="Enemy_HoverBot_Alert" ID="{7AD37C6E-4082-4ACA-99CD-7F27FA20D02E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Enemy_HoverBot_Shoot" ID="{680F1D4C-8287-4A33-8F6D-D021BC5DCC50}" ShortID="519531845">

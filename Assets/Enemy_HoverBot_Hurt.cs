@@ -4,6 +4,7 @@ using Unity.FPS.Game;
 public class Enemy_HoverBot_Hurt : MonoBehaviour
 {
     public AK.Wwise.Event hurtEvent;
+    public AK.Wwise.Event deathEvent;
 
     private Health health;
     void Awake()
@@ -16,6 +17,7 @@ public class Enemy_HoverBot_Hurt : MonoBehaviour
         if (health != null)
         {
             health.OnDamaged += OnEnemyDamaged;
+            health.OnDie += OnEnemyDeath;
         }
     }
 
@@ -25,11 +27,16 @@ public class Enemy_HoverBot_Hurt : MonoBehaviour
         if (health != null)
         {
             health.OnDamaged -= OnEnemyDamaged;
+            health.OnDie -= OnEnemyDeath;
         }
     }
 
     void OnEnemyDamaged(float damage, GameObject damagesource)
     {
         hurtEvent.Post(gameObject);
+    }
+    void OnEnemyDeath()
+    {
+        deathEvent.Post(gameObject);
     }
 }
