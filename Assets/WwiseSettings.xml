@@ -10,7 +10,7 @@
   <LoadSoundEngineInEditMode>true</LoadSoundEngineInEditMode>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac />
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise2024.1.12.9034/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows>C:\Audiokinetic\Wwise2024.1.12.9034</WwiseInstallationPathWindows>
   <WwiseProjectPath>../FPS Group Game_FF_WwiseProject/FPS Group Game_FF_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
