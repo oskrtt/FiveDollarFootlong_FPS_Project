@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584254931248606214
+=======
+    m_lastTime: -8584255489309153704
+>>>>>>> Stashed changes
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,8 +98,183 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584254931248904472
     List:
+=======
+    m_lastTime: -8584255489309400498
+    List:
+    - name: Enemy_HoverBot_Alert
+      guid: a86832e9f4b081439f3420be5a536216
+      id: 3796910724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot_Alert
+        ObjectType: 3
+        guid: a86832e9f4b081439f3420be5a536216
+      Path: Events\Default Work Unit\Enemy_HoverBot_Alert
+      maxAttenuation: 0
+      maxDuration: 0.96445304
+      minDuration: 0.7654869
+    - name: Enemy_HoverBot_Destroy
+      guid: 26000550237d934a905fec1ccc69dc96
+      id: 2865467360
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot_Destroy
+        ObjectType: 3
+        guid: 26000550237d934a905fec1ccc69dc96
+      Path: Events\Default Work Unit\Enemy_HoverBot_Destroy
+      maxAttenuation: 0
+      maxDuration: 0.787553
+      minDuration: 0.62508124
+    - name: Enemy_HoverBot_Hurt
+      guid: 90793ab7f9ffe24c9a80fe629e548ced
+      id: 4067705073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot_Hurt
+        ObjectType: 3
+        guid: 90793ab7f9ffe24c9a80fe629e548ced
+      Path: Events\Default Work Unit\Enemy_HoverBot_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.5985755
+      minDuration: 0.26865798
+    - name: Enemy_HoverBot_Shoot
+      guid: 78230600d8a68e4080352ed17e658515
+      id: 285818559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_HoverBot_Shoot
+        ObjectType: 3
+        guid: 78230600d8a68e4080352ed17e658515
+      Path: Events\Default Work Unit\Enemy_HoverBot_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.50021386
+      minDuration: 0.29732814
+    - name: Enemy_Turret_Alert
+      guid: 48839e5515b257498562a43304dc4dab
+      id: 537555803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Alert
+        ObjectType: 3
+        guid: 48839e5515b257498562a43304dc4dab
+      Path: Events\Default Work Unit\Enemy_Turret_Alert
+      maxAttenuation: 0
+      maxDuration: 0.8271311
+      minDuration: 0.6564944
+    - name: Enemy_Turret_Shoot
+      guid: 28bd45197465454d82959ff5b5ea4a08
+      id: 3153550024
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Shoot
+        ObjectType: 3
+        guid: 28bd45197465454d82959ff5b5ea4a08
+      Path: Events\Default Work Unit\Enemy_Turret_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.5252359
+      minDuration: 0.1218251
+    - name: Launcher_Pickup
+      guid: ca654ace166f814fb1fc7dad35b3fd24
+      id: 3783202364
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Launcher_Pickup
+        ObjectType: 3
+        guid: ca654ace166f814fb1fc7dad35b3fd24
+      Path: Events\Default Work Unit\Launcher_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.55001
+      minDuration: 0.55001
+    - name: Player_Death
+      guid: 65cab16e9e5ce04bbe9e6a700e734565
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Death
+        ObjectType: 3
+        guid: 65cab16e9e5ce04bbe9e6a700e734565
+      Path: Events\Default Work Unit\Player_Death
+      maxAttenuation: 0
+      maxDuration: 0.52388334
+      minDuration: 0.52388334
+    - name: Player_Heal
+      guid: 5879e1fecde8cf4db97304eb180d5448
+      id: 780312891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Heal
+        ObjectType: 3
+        guid: 5879e1fecde8cf4db97304eb180d5448
+      Path: Events\Default Work Unit\Player_Heal
+      maxAttenuation: 0
+      maxDuration: 1.3467574
+      minDuration: 1.3467574
+    - name: Player_Hurt
+      guid: 27d82d025b01024087c2839b25e82f6e
+      id: 1068092414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Hurt
+        ObjectType: 3
+        guid: 27d82d025b01024087c2839b25e82f6e
+      Path: Events\Default Work Unit\Player_Hurt
+      maxAttenuation: 0
+      maxDuration: 0.50666666
+      minDuration: 0.272
+>>>>>>> Stashed changes
     - name: Player_Jump
       guid: f05955f5f875944187f807d90dc22851
       id: 1305133589
