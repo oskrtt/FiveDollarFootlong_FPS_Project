@@ -66,7 +66,15 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584254914451444255
+=======
+<<<<<<< Updated upstream
+    m_lastTime: -8584254931248606214
+=======
+    m_lastTime: -8584255489309153704
+>>>>>>> Stashed changes
+>>>>>>> origin/develop
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +102,15 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584254914451470172
+=======
+<<<<<<< Updated upstream
+    m_lastTime: -8584254931248904472
+    List:
+=======
+    m_lastTime: -8584255489309400498
+>>>>>>> origin/develop
     List:
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
@@ -177,7 +193,11 @@ MonoBehaviour:
       - ElementName: Enemy_Turret_Alert
         ObjectType: 3
         guid: 48839e5515b257498562a43304dc4dab
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemy_Turret_Alert
+=======
+      Path: Events\Default Work Unit\Enemy_Turret_Alert
+>>>>>>> origin/develop
       maxAttenuation: 0
       maxDuration: 0.8271311
       minDuration: 0.6564944
@@ -194,7 +214,11 @@ MonoBehaviour:
       - ElementName: Enemy_Turret_Shoot
         ObjectType: 3
         guid: 28bd45197465454d82959ff5b5ea4a08
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemy_Turret_Shoot
+=======
+      Path: Events\Default Work Unit\Enemy_Turret_Shoot
+>>>>>>> origin/develop
       maxAttenuation: 0
       maxDuration: 0.5252359
       minDuration: 0.1218251
@@ -266,6 +290,7 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.50666666
       minDuration: 0.272
+>>>>>>> Stashed changes
     - name: Player_Jump
       guid: f05955f5f875944187f807d90dc22851
       id: 1305133589
@@ -281,8 +306,59 @@ MonoBehaviour:
         guid: f05955f5f875944187f807d90dc22851
       Path: Events/Default Work Unit/Player_Jump
       maxAttenuation: 0
-      maxDuration: 0.64159
-      minDuration: 0.49175
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Hurt
+      guid: 27d82d025b01024087c2839b25e82f6e
+      id: 1068092414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Hurt
+        ObjectType: 3
+        guid: 27d82d025b01024087c2839b25e82f6e
+      Path: Events/Default Work Unit/Player_Hurt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Death
+      guid: 65cab16e9e5ce04bbe9e6a700e734565
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Death
+        ObjectType: 3
+        guid: 65cab16e9e5ce04bbe9e6a700e734565
+      Path: Events/Default Work Unit/Player_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Heal
+      guid: 5879e1fecde8cf4db97304eb180d5448
+      id: 780312891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Player_Heal
+        ObjectType: 3
+        guid: 5879e1fecde8cf4db97304eb180d5448
+      Path: Events/Default Work Unit/Player_Heal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -295,10 +371,17 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584254137118599654
     List:
     - name: PlayerHealth
       guid: 9a6cc21494c5c140b7b831071b1b5f99
+=======
+    m_lastTime: -8584254931248901133
+    List:
+    - name: PlayerHealth
+      guid: b354ec16906c514e88d0642452eaad0d
+>>>>>>> origin/develop
       id: 151362964
       PathAndIcons:
       - ElementName: Game Parameters
@@ -309,7 +392,11 @@ MonoBehaviour:
         guid: e68e5330cfe7904db3c77b7f7eca9ba9
       - ElementName: PlayerHealth
         ObjectType: 13
+<<<<<<< HEAD
         guid: 9a6cc21494c5c140b7b831071b1b5f99
+=======
+        guid: b354ec16906c514e88d0642452eaad0d
+>>>>>>> origin/develop
       Path: Game Parameters/Default Work Unit/PlayerHealth
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -323,10 +410,17 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584254137121412572
     List:
     - name: PlayerLife
       guid: 0cace2bec092ad4d9a0339f9d7c474ae
+=======
+    m_lastTime: -8584254931248599415
+    List:
+    - name: PlayerLife
+      guid: 55dc2f0c1db2cd43bb7914d885067131
+>>>>>>> origin/develop
       id: 444815956
       PathAndIcons:
       - ElementName: States
@@ -337,11 +431,19 @@ MonoBehaviour:
         guid: 2665d31f118d5647a5e4d86cbe9f4658
       - ElementName: PlayerLife
         ObjectType: 9
+<<<<<<< HEAD
         guid: 0cace2bec092ad4d9a0339f9d7c474ae
       Path: States/Default Work Unit/PlayerLife
       values:
       - name: Alive
         guid: 9b09cfd8c6ab0b4ea34011c1aea34a7f
+=======
+        guid: 55dc2f0c1db2cd43bb7914d885067131
+      Path: States/Default Work Unit/PlayerLife
+      values:
+      - name: Alive
+        guid: a9b13b1d13863a41880ae6d5c8962586
+>>>>>>> origin/develop
         id: 655265632
         PathAndIcons:
         - ElementName: States
@@ -352,6 +454,7 @@ MonoBehaviour:
           guid: 2665d31f118d5647a5e4d86cbe9f4658
         - ElementName: PlayerLife
           ObjectType: 9
+<<<<<<< HEAD
           guid: 0cace2bec092ad4d9a0339f9d7c474ae
         - ElementName: Alive
           ObjectType: 8
@@ -359,6 +462,15 @@ MonoBehaviour:
       - name: Dead
         guid: 5765737bf786e048a1ae3749bbc5aad2
         id: 2044049779
+=======
+          guid: 55dc2f0c1db2cd43bb7914d885067131
+        - ElementName: Alive
+          ObjectType: 8
+          guid: a9b13b1d13863a41880ae6d5c8962586
+      - name: Defeated
+        guid: 9052c56783a1794e825afd230ad107bf
+        id: 2791675679
+>>>>>>> origin/develop
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -368,12 +480,21 @@ MonoBehaviour:
           guid: 2665d31f118d5647a5e4d86cbe9f4658
         - ElementName: PlayerLife
           ObjectType: 9
+<<<<<<< HEAD
           guid: 0cace2bec092ad4d9a0339f9d7c474ae
         - ElementName: Dead
           ObjectType: 8
           guid: 5765737bf786e048a1ae3749bbc5aad2
       - name: None
         guid: dc4e49ec45c70547b4c3a8a9301d2199
+=======
+          guid: 55dc2f0c1db2cd43bb7914d885067131
+        - ElementName: Defeated
+          ObjectType: 8
+          guid: 9052c56783a1794e825afd230ad107bf
+      - name: None
+        guid: 110770446d0ead4b8e14d3e03b44cdd3
+>>>>>>> origin/develop
         id: 748895195
         PathAndIcons:
         - ElementName: States
@@ -384,10 +505,17 @@ MonoBehaviour:
           guid: 2665d31f118d5647a5e4d86cbe9f4658
         - ElementName: PlayerLife
           ObjectType: 9
+<<<<<<< HEAD
           guid: 0cace2bec092ad4d9a0339f9d7c474ae
         - ElementName: None
           ObjectType: 8
           guid: dc4e49ec45c70547b4c3a8a9301d2199
+=======
+          guid: 55dc2f0c1db2cd43bb7914d885067131
+        - ElementName: None
+          ObjectType: 8
+          guid: 110770446d0ead4b8e14d3e03b44cdd3
+>>>>>>> origin/develop
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -420,7 +548,7 @@ MonoBehaviour:
     m_lastTime: -8584265298237370508
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

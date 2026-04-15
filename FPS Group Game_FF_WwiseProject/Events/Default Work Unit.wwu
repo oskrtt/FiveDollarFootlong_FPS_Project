@@ -47,6 +47,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+<<<<<<< Updated upstream
 				<Event Name="Launcher_Pickup" ID="{CE4A65CA-6F16-4F81-B1FC-7DAD35B3FD24}">
 					<ChildrenList>
 						<Action Name="" ID="{129EC3D2-62CC-4810-B387-ADA0AD5CB978}" ShortID="13279430">
@@ -119,6 +120,14 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Enemy_Turret_Shoot" ID="{CC8BAFE0-E38F-4C7F-BAFE-4E82668753FD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+=======
+				<Event Name="Player_Heartbeat" ID="{0F784591-9F56-4282-B4B5-B9CE2D793A6E}">
+					<ChildrenList>
+						<Action Name="" ID="{92390B61-E85E-4147-B61F-A593913F0BA2}" ShortID="931770061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_heartbeat" ID="{DA75DE46-3F60-40BC-B9E5-C7763E54BA27}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+>>>>>>> Stashed changes
 								</Reference>
 							</ReferenceList>
 						</Action>

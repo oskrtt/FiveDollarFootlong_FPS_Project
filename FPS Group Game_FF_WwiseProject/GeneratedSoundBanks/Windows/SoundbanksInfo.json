@@ -92,7 +92,15 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "{2D21EEED-8302-C67A-C554-474A76C1B498}",
+=======
+<<<<<<< Updated upstream
+    "Hash": "{BEC4C43C-77CC-BAF0-E916-D0329E446F67}",
+=======
+    "Hash": "{E5F93002-4BA4-A329-AF15-FD7E1B69137D}",
+>>>>>>> Stashed changes
+>>>>>>> origin/develop
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -647,6 +655,14 @@
     ]
    }
   ],
+<<<<<<< HEAD
   "FileHash": "{755F46AE-0083-D141-6865-E508D1747DE4}"
+=======
+<<<<<<< Updated upstream
+  "FileHash": "{3254BF02-D3C9-19CA-D7DB-503CD778C9E0}"
+=======
+  "FileHash": "{0A7F6077-DBE3-7F08-BD15-967121FCA1F9}"
+>>>>>>> Stashed changes
+>>>>>>> origin/develop
  }
 }
