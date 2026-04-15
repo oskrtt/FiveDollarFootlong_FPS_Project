@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E8C73C05-9AC5-A17E-EA11-491BBCB2A45E}",
+    "Hash": "{732E0EE0-3431-9181-710E-8D0D3BB39EE4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,45 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{14C26C9A-C594-40C1-B7B8-31071B1B5F99}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "444815956",
+      "Name": "PlayerLife",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerLife",
+      "GUID": "{BEE2AC0C-92C0-4DAD-9A03-39F9D7C474AE}",
+      "States": [
+       {
+        "Id": "655265632",
+        "Name": "Alive",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\Alive",
+        "GUID": "{D8CF099B-ABC6-4E0B-A340-11C1AEA34A7F}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\None",
+        "GUID": "{EC494EDC-C745-4705-B4C3-A8A9301D2199}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\Dead",
+        "GUID": "{7B736557-86F7-48E0-A1AE-3749BBC5AAD2}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{7973FFD0-15BD-8185-4D35-A21A4C9AC50B}"
+  "FileHash": "{34031732-4D27-D2F8-8E6B-2DFD02394AD3}"
  }
 }

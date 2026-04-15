@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{BEC4C43C-77CC-BAF0-E916-D0329E446F67}",
+    "Hash": "{2D21EEED-8302-C67A-C554-474A76C1B498}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -32,6 +32,14 @@
       "CachePath": "09/{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem"
      },
      {
+      "Id": "80605400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 4.wav",
+      "CachePath": "36/{36023FEE-26B2-B397-4A93-240F5AF18864}.wem"
+     },
+     {
       "Id": "103185814",
       "Language": "SFX",
       "Streaming": "false",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_Turret_Shoot_04.wav",
       "CachePath": "0B/{0B18D75B-7067-44F7-413E-E44BCE04E558}.wem"
+     },
+     {
+      "Id": "115516389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 3.wav",
+      "CachePath": "29/{29EAC0AA-6AC0-919A-012C-321FDA5E9A36}.wem"
      },
      {
       "Id": "125288418",
@@ -88,12 +104,36 @@
       "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
      },
      {
+      "Id": "442574818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 2.wav",
+      "CachePath": "40/{406D7944-CF25-496F-48E3-C939DD9A1DA6}.wem"
+     },
+     {
       "Id": "468259415",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Shoot_03.wav",
       "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
+     },
+     {
+      "Id": "488345275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Heartbeat Loop.wav",
+      "CachePath": "FA/{FA8D705B-7345-B73F-398F-BD1F23763A12}.wem"
+     },
+     {
+      "Id": "507075031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 5.wav",
+      "CachePath": "39/{392439F2-3860-A066-78E6-C90702B5F526}.wem"
      },
      {
       "Id": "517251212",
@@ -222,6 +262,14 @@
       "Location": "Memory",
       "ShortName": "319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12.wav",
       "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
+     },
+     {
+      "Id": "978891660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal.wav",
+      "CachePath": "45/{45F9CEB8-43B3-18E1-D05B-F50CFB33FE5C}.wem"
      },
      {
       "Id": "1001351414",
@@ -397,6 +445,32 @@
       ]
      },
      {
+      "Id": "4276063004",
+      "Name": "Player_FS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_FS",
+      "GUID": "{0C0ABCE4-8C79-46F9-A4AF-5FB64BDF96A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39143",
+      "DurationMax": "0.50877",
+      "MediaRefs": [
+       {
+        "Id": "80605400"
+       },
+       {
+        "Id": "115516389"
+       },
+       {
+        "Id": "442574818"
+       },
+       {
+        "Id": "507075031"
+       },
+       {
+        "Id": "978891660"
+       }
+      ]
+     },
+     {
       "Id": "780312891",
       "Name": "Player_Heal",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Heal",
@@ -407,6 +481,18 @@
       "MediaRefs": [
        {
         "Id": "336694174"
+       }
+      ]
+     },
+     {
+      "Id": "3484321931",
+      "Name": "Player_Heartbeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Heartbeat",
+      "GUID": "{7CDB24F9-6E75-4C98-A450-13A699BC84E3}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "488345275"
        }
       ]
      },
@@ -468,9 +554,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{14C26C9A-C594-40C1-B7B8-31071B1B5F99}"
+     }
     ]
    }
   ],
-  "FileHash": "{AEDF592D-F0BF-17DF-9D62-DFEC6C44293F}"
+  "FileHash": "{BA9AEF00-9E07-4A72-A389-A282C1B07FC0}"
  }
 }

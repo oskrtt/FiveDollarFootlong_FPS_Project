@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: AK.Wwise.Unity.API.Editor::AkWwiseProjectData
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 377d41dbbfe6f64eb0041be1f686a4ce
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: 377d41dbbfe6f64eb0041be1f686a4ce
     GuidInternal: 
-    m_lastTime: -8584267041346495240
+    m_lastTime: -8584265298237367433
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 39991462d2d61d4b85436a40a0f6e0e8
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 39991462d2d61d4b85436a40a0f6e0e8
     GuidInternal: 
-    m_lastTime: -8584267041347291631
+    m_lastTime: -8584265298238860484
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 8512ff3dac1f8545824add3a70e8f7a6
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584255533949830488
+    m_lastTime: -8584254914451444255
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 5ebb55d44705a841a4cbdc55a4527cba
-      Path: SoundBanks\Default Work Unit\Main
+      Path: SoundBanks/Default Work Unit/Main
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 07b4809c7e0f0943b75cea85c7f55350
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584255533950000643
+    m_lastTime: -8584254914451470172
     List:
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: Enemy_HoverBot_Alert
         ObjectType: 3
         guid: a86832e9f4b081439f3420be5a536216
-      Path: Events\Default Work Unit\Enemy_HoverBot_Alert
+      Path: Events/Default Work Unit/Enemy_HoverBot_Alert
       maxAttenuation: 0
       maxDuration: 0.96445304
       minDuration: 0.7654869
@@ -126,7 +126,7 @@ MonoBehaviour:
       - ElementName: Enemy_HoverBot_Destroy
         ObjectType: 3
         guid: 26000550237d934a905fec1ccc69dc96
-      Path: Events\Default Work Unit\Enemy_HoverBot_Destroy
+      Path: Events/Default Work Unit/Enemy_HoverBot_Destroy
       maxAttenuation: 0
       maxDuration: 0.787553
       minDuration: 0.62508124
@@ -143,7 +143,7 @@ MonoBehaviour:
       - ElementName: Enemy_HoverBot_Hurt
         ObjectType: 3
         guid: 90793ab7f9ffe24c9a80fe629e548ced
-      Path: Events\Default Work Unit\Enemy_HoverBot_Hurt
+      Path: Events/Default Work Unit/Enemy_HoverBot_Hurt
       maxAttenuation: 0
       maxDuration: 0.5985755
       minDuration: 0.26865798
@@ -160,10 +160,44 @@ MonoBehaviour:
       - ElementName: Enemy_HoverBot_Shoot
         ObjectType: 3
         guid: 78230600d8a68e4080352ed17e658515
-      Path: Events\Default Work Unit\Enemy_HoverBot_Shoot
+      Path: Events/Default Work Unit/Enemy_HoverBot_Shoot
       maxAttenuation: 0
       maxDuration: 0.50021386
       minDuration: 0.29732814
+    - name: Enemy_Turret_Alert
+      guid: 48839e5515b257498562a43304dc4dab
+      id: 537555803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Alert
+        ObjectType: 3
+        guid: 48839e5515b257498562a43304dc4dab
+      Path: Events/Default Work Unit/Enemy_Turret_Alert
+      maxAttenuation: 0
+      maxDuration: 0.8271311
+      minDuration: 0.6564944
+    - name: Enemy_Turret_Shoot
+      guid: 28bd45197465454d82959ff5b5ea4a08
+      id: 3153550024
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Shoot
+        ObjectType: 3
+        guid: 28bd45197465454d82959ff5b5ea4a08
+      Path: Events/Default Work Unit/Enemy_Turret_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.5252359
+      minDuration: 0.1218251
     - name: Launcher_Pickup
       guid: ca654ace166f814fb1fc7dad35b3fd24
       id: 3783202364
@@ -177,7 +211,7 @@ MonoBehaviour:
       - ElementName: Launcher_Pickup
         ObjectType: 3
         guid: ca654ace166f814fb1fc7dad35b3fd24
-      Path: Events\Default Work Unit\Launcher_Pickup
+      Path: Events/Default Work Unit/Launcher_Pickup
       maxAttenuation: 0
       maxDuration: 0.55001
       minDuration: 0.55001
@@ -194,7 +228,7 @@ MonoBehaviour:
       - ElementName: Player_Death
         ObjectType: 3
         guid: 65cab16e9e5ce04bbe9e6a700e734565
-      Path: Events\Default Work Unit\Player_Death
+      Path: Events/Default Work Unit/Player_Death
       maxAttenuation: 0
       maxDuration: 0.52388334
       minDuration: 0.52388334
@@ -211,7 +245,7 @@ MonoBehaviour:
       - ElementName: Player_Heal
         ObjectType: 3
         guid: 5879e1fecde8cf4db97304eb180d5448
-      Path: Events\Default Work Unit\Player_Heal
+      Path: Events/Default Work Unit/Player_Heal
       maxAttenuation: 0
       maxDuration: 1.3467574
       minDuration: 1.3467574
@@ -228,7 +262,7 @@ MonoBehaviour:
       - ElementName: Player_Hurt
         ObjectType: 3
         guid: 27d82d025b01024087c2839b25e82f6e
-      Path: Events\Default Work Unit\Player_Hurt
+      Path: Events/Default Work Unit/Player_Hurt
       maxAttenuation: 0
       maxDuration: 0.50666666
       minDuration: 0.272
@@ -245,12 +279,12 @@ MonoBehaviour:
       - ElementName: Player_Jump
         ObjectType: 3
         guid: f05955f5f875944187f807d90dc22851
-      Path: Events\Default Work Unit\Player_Jump
+      Path: Events/Default Work Unit/Player_Jump
       maxAttenuation: 0
       maxDuration: 0.64159
       minDuration: 0.49175
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -258,13 +292,27 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: e68e5330cfe7904db3c77b7f7eca9ba9
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584267041348032733
-    List: []
+    m_lastTime: -8584254137118599654
+    List:
+    - name: PlayerHealth
+      guid: 9a6cc21494c5c140b7b831071b1b5f99
+      id: 151362964
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e68e5330cfe7904db3c77b7f7eca9ba9
+      - ElementName: PlayerHealth
+        ObjectType: 13
+        guid: 9a6cc21494c5c140b7b831071b1b5f99
+      Path: Game Parameters/Default Work Unit/PlayerHealth
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -272,13 +320,79 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 2665d31f118d5647a5e4d86cbe9f4658
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584267041346515255
-    List: []
+    m_lastTime: -8584254137121412572
+    List:
+    - name: PlayerLife
+      guid: 0cace2bec092ad4d9a0339f9d7c474ae
+      id: 444815956
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2665d31f118d5647a5e4d86cbe9f4658
+      - ElementName: PlayerLife
+        ObjectType: 9
+        guid: 0cace2bec092ad4d9a0339f9d7c474ae
+      Path: States/Default Work Unit/PlayerLife
+      values:
+      - name: Alive
+        guid: 9b09cfd8c6ab0b4ea34011c1aea34a7f
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: 0cace2bec092ad4d9a0339f9d7c474ae
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 9b09cfd8c6ab0b4ea34011c1aea34a7f
+      - name: Dead
+        guid: 5765737bf786e048a1ae3749bbc5aad2
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: 0cace2bec092ad4d9a0339f9d7c474ae
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 5765737bf786e048a1ae3749bbc5aad2
+      - name: None
+        guid: dc4e49ec45c70547b4c3a8a9301d2199
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: 0cace2bec092ad4d9a0339f9d7c474ae
+        - ElementName: None
+          ObjectType: 8
+          guid: dc4e49ec45c70547b4c3a8a9301d2199
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -286,13 +400,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d51dc3041faad54eab156e4ddf5976df
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: d51dc3041faad54eab156e4ddf5976df
     GuidInternal: 
-    m_lastTime: -8584267041346515255
+    m_lastTime: -8584265298237378699
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -300,10 +414,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 86861026b66ea348b8606a6b6638f205
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 86861026b66ea348b8606a6b6638f205
     GuidInternal: 
-    m_lastTime: -8584267041346505235
+    m_lastTime: -8584265298237370508
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 050000000600000007000000
