@@ -10,6 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "Hash": "{12F5852C-5F91-F398-1787-BAA48DF8CBC2}",
 =======
@@ -23,6 +24,9 @@
 >>>>>>> Stashed changes
 >>>>>>> origin/develop
 >>>>>>> origin/develop
+=======
+    "Hash": "{BFA0A283-A5EF-7389-32F0-AE132AF6BFF3}",
+>>>>>>> Stashed changes
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -125,12 +129,21 @@
       "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
      },
      {
+<<<<<<< Updated upstream
       "Id": "442574818",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS\\FS Metal 2.wav",
       "CachePath": "40/{406D7944-CF25-496F-48E3-C939DD9A1DA6}.wem"
+=======
+      "Id": "381772645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_04.wav",
+      "CachePath": "EC/{EC9D12B5-9333-F1CA-08B4-DA37F219C720}.wem"
+>>>>>>> Stashed changes
      },
      {
       "Id": "468259415",
@@ -247,12 +260,28 @@
       "CachePath": "26/{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem"
      },
      {
+      "Id": "749032231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Destroy.wav",
+      "CachePath": "40/{409BD7B6-6AE2-D147-8EA3-C8951002EF84}.wem"
+     },
+     {
       "Id": "773929756",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Hurt_04.wav",
       "CachePath": "55/{552FA85C-23FF-CD49-3127-620A53D29D56}.wem"
+     },
+     {
+      "Id": "776779715",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_03.wav",
+      "CachePath": "45/{458A4EFF-8CEF-621C-6D67-45366962F3A2}.wem"
      },
      {
       "Id": "842355714",
@@ -269,6 +298,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Shoot_01.wav",
       "CachePath": "F3/{F3AF9B3C-7969-ADFE-AAC2-473ABAA9087B}.wem"
+     },
+     {
+      "Id": "869361220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_01.wav",
+      "CachePath": "D8/{D8A3F343-F389-CE91-4ECA-B5F9CFAA82F8}.wem"
      },
      {
       "Id": "877655475",
@@ -295,12 +332,21 @@
       "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
      },
      {
+<<<<<<< Updated upstream
       "Id": "978891660",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS\\FS Metal.wav",
       "CachePath": "45/{45F9CEB8-43B3-18E1-D05B-F50CFB33FE5C}.wem"
+=======
+      "Id": "907346227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_02.wav",
+      "CachePath": "08/{08763771-37D0-2691-0210-4814609FD409}.wem"
+>>>>>>> Stashed changes
      },
      {
       "Id": "1001351414",
@@ -421,6 +467,43 @@
       "MediaRefs": [
        {
         "Id": "657389238"
+       }
+      ]
+     },
+     {
+      "Id": "1500461935",
+      "Name": "Enemy_Turret_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Destroy",
+      "GUID": "{0560C79A-A936-446D-95E5-5A2D43DE470A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.06351",
+      "DurationMax": "1.06351",
+      "MediaRefs": [
+       {
+        "Id": "749032231"
+       }
+      ]
+     },
+     {
+      "Id": "329372592",
+      "Name": "Enemy_Turret_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Hurt",
+      "GUID": "{F18E2519-7B66-4C40-BDA2-68CFAFFCA2AC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21510078",
+      "DurationMax": "0.48116386",
+      "MediaRefs": [
+       {
+        "Id": "381772645"
+       },
+       {
+        "Id": "776779715"
+       },
+       {
+        "Id": "869361220"
+       },
+       {
+        "Id": "907346227"
        }
       ]
      },
@@ -661,6 +744,7 @@
     ]
    }
   ],
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "FileHash": "{A6DD98AE-68F6-B685-20EF-CB8C1628D2E0}"
 =======
@@ -674,5 +758,8 @@
 >>>>>>> Stashed changes
 >>>>>>> origin/develop
 >>>>>>> origin/develop
+=======
+  "FileHash": "{A9A80447-764E-DE18-B0F8-F1D79253AF83}"
+>>>>>>> Stashed changes
  }
 }
