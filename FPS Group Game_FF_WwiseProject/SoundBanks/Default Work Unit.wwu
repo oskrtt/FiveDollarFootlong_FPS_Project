@@ -10,6 +10,7 @@
 						<ObjectRef Name="Player_Jump" ID="{F55559F0-75F8-4194-87F8-07D90DC22851}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Alert" ID="{E93268A8-B0F4-4381-9F34-20BE5A536216}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Destroy" ID="{2FE9DFC1-88FF-4435-8582-9A9F0C100DBD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{F6BC3266-86FA-4632-92C2-ADE4BEDAF2A6}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Turret_Alert" ID="{559E8348-B215-4957-8562-A43304DC4DAB}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Shoot" ID="{680F1D4C-8287-4A33-8F6D-D021BC5DCC50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Destroy" ID="{50050026-7D23-4A93-905F-EC1CCC69DC96}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>

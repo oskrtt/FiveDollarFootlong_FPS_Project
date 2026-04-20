@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 377d41dbbfe6f64eb0041be1f686a4ce
     GuidInternal: 
-    m_lastTime: -8584267041346495240
+    m_lastTime: -8584266967047754996
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 39991462d2d61d4b85436a40a0f6e0e8
     GuidInternal: 
-    m_lastTime: -8584267041347291631
+    m_lastTime: -8584266967048487003
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584255533949830488
+    m_lastTime: -8584249381516234151
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584255533950000643
+    m_lastTime: -8584249393382629668
     List:
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
@@ -164,6 +164,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.50021386
       minDuration: 0.29732814
+    - name: Enemy_Turret_Alert
+      guid: 48839e5515b257498562a43304dc4dab
+      id: 537555803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Alert
+        ObjectType: 3
+        guid: 48839e5515b257498562a43304dc4dab
+      Path: Events\Default Work Unit\Enemy_Turret_Alert
+      maxAttenuation: 0
+      maxDuration: 0.8271311
+      minDuration: 0.6564944
+    - name: Enemy_Turret_Shoot
+      guid: 28bd45197465454d82959ff5b5ea4a08
+      id: 3153550024
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Enemy_Turret_Shoot
+        ObjectType: 3
+        guid: 28bd45197465454d82959ff5b5ea4a08
+      Path: Events\Default Work Unit\Enemy_Turret_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.5252359
+      minDuration: 0.1218251
     - name: Launcher_Pickup
       guid: ca654ace166f814fb1fc7dad35b3fd24
       id: 3783202364
@@ -181,6 +215,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.55001
       minDuration: 0.55001
+    - name: Play_Music
+      guid: d0a69dff6bbaab4db3fe9b5190f174aa
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: d0a69dff6bbaab4db3fe9b5190f174aa
+      Path: Events\Default Work Unit\Play_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
@@ -261,7 +312,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584267041348032733
+    m_lastTime: -8584249475886705946
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -275,8 +326,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584267041346515255
-    List: []
+    m_lastTime: -8584249393382395425
+    List:
+    - name: Music
+      guid: 84cd5809255e91439bc400e21b6dcd58
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2665d31f118d5647a5e4d86cbe9f4658
+      - ElementName: Music
+        ObjectType: 9
+        guid: 84cd5809255e91439bc400e21b6dcd58
+      Path: States\Default Work Unit\Music
+      values:
+      - name: Boss
+        guid: ca5fa7298e35644c961ccf8d0de4cfce
+        id: 1560169506
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: Music
+          ObjectType: 9
+          guid: 84cd5809255e91439bc400e21b6dcd58
+        - ElementName: Boss
+          ObjectType: 8
+          guid: ca5fa7298e35644c961ccf8d0de4cfce
+      - name: Level
+        guid: e16b666485bb964ca09eefce50f92e5e
+        id: 2782712965
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: Music
+          ObjectType: 9
+          guid: 84cd5809255e91439bc400e21b6dcd58
+        - ElementName: Level
+          ObjectType: 8
+          guid: e16b666485bb964ca09eefce50f92e5e
+      - name: None
+        guid: 291f78cf25618f4fa1b8124d71a8ac48
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2665d31f118d5647a5e4d86cbe9f4658
+        - ElementName: Music
+          ObjectType: 9
+          guid: 84cd5809255e91439bc400e21b6dcd58
+        - ElementName: None
+          ObjectType: 8
+          guid: 291f78cf25618f4fa1b8124d71a8ac48
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -289,7 +406,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: d51dc3041faad54eab156e4ddf5976df
     GuidInternal: 
-    m_lastTime: -8584267041346515255
+    m_lastTime: -8584266967047775076
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -303,11 +420,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 86861026b66ea348b8606a6b6638f205
     GuidInternal: 
-    m_lastTime: -8584267041346505235
+    m_lastTime: -8584266967047775076
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000
+  ExpandedFileSystemItemIds: 0200000003000000050000000600000007000000
+  ExpandedWaapiItemIds: 0200000003000000050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

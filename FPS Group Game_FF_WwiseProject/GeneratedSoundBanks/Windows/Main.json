@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{BEC4C43C-77CC-BAF0-E916-D0329E446F67}",
+    "Hash": "{12F5852C-5F91-F398-1787-BAA48DF8CBC2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -72,6 +72,15 @@
       "CachePath": "94/{943C45AB-E531-566D-4CDA-1C2F746B2E21}.wem"
      },
      {
+      "Id": "292871006",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "studiokolomna-risk-136788.wav",
+      "Path": "Media/292871006.wem",
+      "CachePath": "AE/{AE794858-3013-6A8A-1D89-282DA0CD4E94}.wem"
+     },
+     {
       "Id": "315246706",
       "Language": "SFX",
       "Streaming": "false",
@@ -94,6 +103,15 @@
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Shoot_03.wav",
       "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
+     },
+     {
+      "Id": "507892006",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467.wav",
+      "Path": "Media/507892006.wem",
+      "CachePath": "8B/{8B553EC9-A4C2-BC32-EC76-C9B48B7B2E66}.wem"
      },
      {
       "Id": "517251212",
@@ -383,6 +401,42 @@
       ]
      },
      {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{FF9DA6D0-BA6B-4DAB-B3FE-9B5190F174AA}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "1560169506",
+         "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "507892006"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "2782712965",
+         "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "292871006"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "3083087645",
       "Name": "Player_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Death",
@@ -468,9 +522,37 @@
        }
       ]
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{0958CD84-5E25-4391-9BC4-00E21B6DCD58}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"
+       },
+       {
+        "Id": "1560169506",
+        "Name": "Boss",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss",
+        "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
+       },
+       {
+        "Id": "2782712965",
+        "Name": "Level",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Level",
+        "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{631AD6DD-517E-F9CF-B1C1-92865EA21544}"
+  "FileHash": "{A6DD98AE-68F6-B685-20EF-CB8C1628D2E0}"
  }
 }

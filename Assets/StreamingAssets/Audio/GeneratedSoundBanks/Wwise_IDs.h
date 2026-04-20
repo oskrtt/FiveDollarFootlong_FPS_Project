@@ -20,11 +20,28 @@ namespace AK
         static const AkUniqueID ENEMY_TURRET_ALERT = 537555803U;
         static const AkUniqueID ENEMY_TURRET_SHOOT = 3153550024U;
         static const AkUniqueID LAUNCHER_PICKUP = 3783202364U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_HEAL = 780312891U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC
+        {
+            static const AkUniqueID GROUP = 3991942870U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSS = 1560169506U;
+                static const AkUniqueID LEVEL = 2782712965U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSIC
+
+    } // namespace STATES
 
     namespace BANKS
     {
