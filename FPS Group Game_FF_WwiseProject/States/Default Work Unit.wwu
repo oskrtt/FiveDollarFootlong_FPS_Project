@@ -3,6 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{1FD36526-8D11-4756-A5E4-D86CBE9F4658}" PersistMode="Standalone">
 			<ChildrenList>
+<<<<<<< HEAD
 				<StateGroup Name="Music" ID="{0958CD84-5E25-4391-9BC4-00E21B6DCD58}">
 					<ChildrenList>
 						<State Name="None" ID="{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"/>
@@ -14,6 +15,33 @@
 							<StartState Name="Level" ID="{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"/>
 							<EndState Name="Boss" ID="{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"/>
 							<Time>4</Time>
+=======
+<<<<<<< HEAD
+				<StateGroup Name="PlayerLife" ID="{BEE2AC0C-92C0-4DAD-9A03-39F9D7C474AE}">
+					<ChildrenList>
+						<State Name="None" ID="{EC494EDC-C745-4705-B4C3-A8A9301D2199}"/>
+						<State Name="Alive" ID="{D8CF099B-ABC6-4E0B-A340-11C1AEA34A7F}"/>
+						<State Name="Dead" ID="{7B736557-86F7-48E0-A1AE-3749BBC5AAD2}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{D8CF099B-ABC6-4E0B-A340-11C1AEA34A7F}"/>
+							<EndState Name="Dead" ID="{7B736557-86F7-48E0-A1AE-3749BBC5AAD2}"/>
+							<Time>0.5</Time>
+=======
+				<StateGroup Name="PlayerLife" ID="{0C2FDC55-B21D-43CD-BB79-14D885067131}">
+					<ChildrenList>
+						<State Name="None" ID="{44700711-0E6D-4BAD-8E14-D3E03B44CDD3}"/>
+						<State Name="Alive" ID="{1D3BB1A9-8613-413A-880A-E6D5C8962586}"/>
+						<State Name="Defeated" ID="{67C55290-A183-4E79-825A-FD230AD107BF}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{1D3BB1A9-8613-413A-880A-E6D5C8962586}"/>
+							<EndState Name="Defeated" ID="{67C55290-A183-4E79-825A-FD230AD107BF}"/>
+							<Time>1</Time>
+>>>>>>> origin/develop
+>>>>>>> origin/develop
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

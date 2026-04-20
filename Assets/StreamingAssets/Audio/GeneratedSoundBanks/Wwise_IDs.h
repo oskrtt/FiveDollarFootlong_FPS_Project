@@ -22,13 +22,16 @@ namespace AK
         static const AkUniqueID LAUNCHER_PICKUP = 3783202364U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
+        static const AkUniqueID PLAYER_FS = 4276063004U;
         static const AkUniqueID PLAYER_HEAL = 780312891U;
+        static const AkUniqueID PLAYER_HEARTBEAT = 3484321931U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
     } // namespace EVENTS
 
     namespace STATES
     {
+<<<<<<< HEAD
         namespace MUSIC
         {
             static const AkUniqueID GROUP = 3991942870U;
@@ -43,6 +46,27 @@ namespace AK
 
     } // namespace STATES
 
+=======
+        namespace PLAYERLIFE
+        {
+            static const AkUniqueID GROUP = 444815956U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ALIVE = 655265632U;
+                static const AkUniqueID DEAD = 2044049779U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace PLAYERLIFE
+
+    } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID PLAYERHEALTH = 151362964U;
+    } // namespace GAME_PARAMETERS
+
+>>>>>>> origin/develop
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

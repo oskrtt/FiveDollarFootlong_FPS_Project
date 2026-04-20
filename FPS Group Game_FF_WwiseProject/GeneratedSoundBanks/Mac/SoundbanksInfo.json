@@ -18,7 +18,11 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "{2582C5C3-5AA4-1086-C6B1-46E7CEC36342}",
+=======
+    "Hash": "{8685196D-777A-2DA2-3452-773C812C18C9}",
+>>>>>>> origin/develop
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,6 +54,7 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+<<<<<<< HEAD
     "StateGroups": [
      {
       "Id": "3991942870",
@@ -74,6 +79,40 @@
         "Name": "Level",
         "ObjectPath": "\\States\\Default Work Unit\\Music\\Level",
         "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
+=======
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{14C26C9A-C594-40C1-B7B8-31071B1B5F99}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "444815956",
+      "Name": "PlayerLife",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerLife",
+      "GUID": "{BEE2AC0C-92C0-4DAD-9A03-39F9D7C474AE}",
+      "States": [
+       {
+        "Id": "655265632",
+        "Name": "Alive",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\Alive",
+        "GUID": "{D8CF099B-ABC6-4E0B-A340-11C1AEA34A7F}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\None",
+        "GUID": "{EC494EDC-C745-4705-B4C3-A8A9301D2199}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerLife\\Dead",
+        "GUID": "{7B736557-86F7-48E0-A1AE-3749BBC5AAD2}"
+>>>>>>> origin/develop
        }
       ]
      }
@@ -84,7 +123,19 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
+<<<<<<< HEAD
     "Hash": "{12F5852C-5F91-F398-1787-BAA48DF8CBC2}",
+=======
+<<<<<<< HEAD
+    "Hash": "{2D21EEED-8302-C67A-C554-474A76C1B498}",
+=======
+<<<<<<< Updated upstream
+    "Hash": "{BEC4C43C-77CC-BAF0-E916-D0329E446F67}",
+=======
+    "Hash": "{E5F93002-4BA4-A329-AF15-FD7E1B69137D}",
+>>>>>>> Stashed changes
+>>>>>>> origin/develop
+>>>>>>> origin/develop
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -106,6 +157,14 @@
       "CachePath": "09/{09471709-CFB8-8D89-A950-1531BEAE9D49}.wem"
      },
      {
+      "Id": "80605400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 4.wav",
+      "CachePath": "36/{36023FEE-26B2-B397-4A93-240F5AF18864}.wem"
+     },
+     {
       "Id": "103185814",
       "Language": "SFX",
       "Streaming": "false",
@@ -120,6 +179,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_Turret_Shoot_04.wav",
       "CachePath": "0B/{0B18D75B-7067-44F7-413E-E44BCE04E558}.wem"
+     },
+     {
+      "Id": "115516389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 3.wav",
+      "CachePath": "29/{29EAC0AA-6AC0-919A-012C-321FDA5E9A36}.wem"
      },
      {
       "Id": "125288418",
@@ -171,6 +238,14 @@
       "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
      },
      {
+      "Id": "442574818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 2.wav",
+      "CachePath": "40/{406D7944-CF25-496F-48E3-C939DD9A1DA6}.wem"
+     },
+     {
       "Id": "468259415",
       "Language": "SFX",
       "Streaming": "false",
@@ -179,6 +254,7 @@
       "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
      },
      {
+<<<<<<< HEAD
       "Id": "507892006",
       "Language": "SFX",
       "Streaming": "true",
@@ -186,6 +262,22 @@
       "ShortName": "nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467.wav",
       "Path": "Media/507892006.wem",
       "CachePath": "8B/{8B553EC9-A4C2-BC32-EC76-C9B48B7B2E66}.wem"
+=======
+      "Id": "488345275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Heartbeat Loop.wav",
+      "CachePath": "FA/{FA8D705B-7345-B73F-398F-BD1F23763A12}.wem"
+     },
+     {
+      "Id": "507075031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal 5.wav",
+      "CachePath": "39/{392439F2-3860-A066-78E6-C90702B5F526}.wem"
+>>>>>>> origin/develop
      },
      {
       "Id": "517251212",
@@ -314,6 +406,14 @@
       "Location": "Memory",
       "ShortName": "319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12.wav",
       "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
+     },
+     {
+      "Id": "978891660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS\\FS Metal.wav",
+      "CachePath": "45/{45F9CEB8-43B3-18E1-D05B-F50CFB33FE5C}.wem"
      },
      {
       "Id": "1001351414",
@@ -525,6 +625,32 @@
       ]
      },
      {
+      "Id": "4276063004",
+      "Name": "Player_FS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_FS",
+      "GUID": "{0C0ABCE4-8C79-46F9-A4AF-5FB64BDF96A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39143",
+      "DurationMax": "0.50877",
+      "MediaRefs": [
+       {
+        "Id": "80605400"
+       },
+       {
+        "Id": "115516389"
+       },
+       {
+        "Id": "442574818"
+       },
+       {
+        "Id": "507075031"
+       },
+       {
+        "Id": "978891660"
+       }
+      ]
+     },
+     {
       "Id": "780312891",
       "Name": "Player_Heal",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Heal",
@@ -535,6 +661,18 @@
       "MediaRefs": [
        {
         "Id": "336694174"
+       }
+      ]
+     },
+     {
+      "Id": "3484321931",
+      "Name": "Player_Heartbeat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Heartbeat",
+      "GUID": "{7CDB24F9-6E75-4C98-A450-13A699BC84E3}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "488345275"
        }
       ]
      },
@@ -597,6 +735,7 @@
       ]
      }
     ],
+<<<<<<< HEAD
     "StateGroups": [
      {
       "Id": "3991942870",
@@ -623,10 +762,30 @@
         "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
        }
       ]
+=======
+    "GameParameters": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHealth",
+      "GUID": "{14C26C9A-C594-40C1-B7B8-31071B1B5F99}"
+>>>>>>> origin/develop
      }
     ]
    }
   ],
+<<<<<<< HEAD
   "FileHash": "{15DF1631-2967-4E6C-5B02-7EEFA30CDD9E}"
+=======
+<<<<<<< HEAD
+  "FileHash": "{822E713E-DF26-6A2D-52AC-06FF1A6A3CC9}"
+=======
+<<<<<<< Updated upstream
+  "FileHash": "{1CF42330-2A7E-1BC2-A90A-287F088A8A6A}"
+=======
+  "FileHash": "{72BECC7F-7CD5-03F7-D2C7-D34DBCBA0765}"
+>>>>>>> Stashed changes
+>>>>>>> origin/develop
+>>>>>>> origin/develop
  }
 }

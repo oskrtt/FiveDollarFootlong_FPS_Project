@@ -388,6 +388,187 @@
 								<ActiveSource Name="338145-Male_vocalization_-relief_as_pain_ends_2" ID="{CDE918D1-695D-40F5-AD90-F62BD837C8F1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+<<<<<<< HEAD
+						<Sound Name="player-heartbeat" ID="{1DCFA944-24EF-47C8-BE78-BF621F4E30A2}" ShortID="637201454">
+=======
+						<Sound Name="player_heartbeat" ID="{DA75DE46-3F60-40BC-B9E5-C7763E54BA27}" ShortID="291337285">
+>>>>>>> origin/develop
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+<<<<<<< HEAD
+								<AudioFileSource Name="Heartbeat" ID="{FE70504A-7643-4F38-B779-11BAA330D427}">
+									<Language>SFX</Language>
+									<AudioFile>Heartbeat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="890452199"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+=======
+								<AudioFileSource Name="Heartbeat" ID="{42A02F38-EB09-49AA-8A2B-19FE2A049B5E}">
+									<Language>SFX</Language>
+									<AudioFile>Heartbeat.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152892188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLife" ID="{0C2FDC55-B21D-43CD-BB79-14D885067131}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Alive" ID="{1D3BB1A9-8613-413A-880A-E6D5C8962586}"/>
+										<CustomState Name="" ID="{CC27F6A0-8AF5-43DC-A068-956E571E4118}" ShortID="536782798"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{44700711-0E6D-4BAD-8E14-D3E03B44CDD3}"/>
+										<CustomState Name="" ID="{E4D0F0DF-FD8F-4429-8643-607BC0B9FF2A}" ShortID="134238888">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Defeated" ID="{67C55290-A183-4E79-825A-FD230AD107BF}"/>
+										<CustomState Name="" ID="{1F38BC63-549E-4E75-8486-60CE63ABD666}" ShortID="438511554"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+>>>>>>> origin/develop
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+<<<<<<< HEAD
+											<RTPC Name="" ID="{EBF1D163-6E73-4207-BA8F-E9914E052F90}" ShortID="758316097">
+=======
+											<RTPC Name="" ID="{32EBA112-C560-41F0-8C31-39712643695F}" ShortID="560473836">
+>>>>>>> origin/develop
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+<<<<<<< HEAD
+														<ObjectRef Name="PlayerHealth" ID="{14C26C9A-C594-40C1-B7B8-31071B1B5F99}" WorkUnitID="{30538EE6-E7CF-4D90-B3C7-7B7F7ECA9BA9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{3072ACB5-7D13-4F6F-B2AB-533CA71C9D9A}">
+=======
+														<ObjectRef Name="PlayerHealth" ID="{16EC54B3-6C90-4E51-88D0-642452EAAD0D}" WorkUnitID="{30538EE6-E7CF-4D90-B3C7-7B7F7ECA9BA9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{ADFDE957-D127-4EEB-9610-4388338BE48D}">
+>>>>>>> origin/develop
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+<<<<<<< HEAD
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+=======
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+>>>>>>> origin/develop
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+<<<<<<< HEAD
+											<RTPC Name="" ID="{F7B202E3-4D73-46CD-B567-992D85B77D97}" ShortID="604309657">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+												</PropertyList>
+												<ReferenceList/>
+=======
+											<RTPC Name="" ID="{F3C7B2A1-17C6-4FFE-8137-BCD3DD06174E}" ShortID="419901049">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="PlayerHealth" ID="{16EC54B3-6C90-4E51-88D0-642452EAAD0D}" WorkUnitID="{30538EE6-E7CF-4D90-B3C7-7B7F7ECA9BA9}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F0009DCB-3CDB-4688-A050-ACAE4B067C42}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>60</XPos>
+																		<YPos>100</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+>>>>>>> origin/develop
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+<<<<<<< HEAD
+								<ActiveSource Name="Heartbeat" ID="{FE70504A-7643-4F38-B779-11BAA330D427}" Platform="Linked"/>
+=======
+								<ActiveSource Name="Heartbeat" ID="{42A02F38-EB09-49AA-8A2B-19FE2A049B5E}" Platform="Linked"/>
+>>>>>>> origin/develop
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Enemy" ID="{C4C77502-BEA1-4266-AE57-544EDA724B0C}" ShortID="774523273">
