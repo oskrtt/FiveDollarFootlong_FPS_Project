@@ -7,9 +7,8 @@ public class MusicManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playMusic.Post(gameObject);
         AkSoundEngine.SetState("Music", "Level");
-      
+        playMusic.Post(gameObject);
     }
 
 }
