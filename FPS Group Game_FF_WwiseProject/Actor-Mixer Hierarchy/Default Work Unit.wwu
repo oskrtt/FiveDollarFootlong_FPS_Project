@@ -1220,57 +1220,10 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<SwitchContainer Name="Music" ID="{F6BC3266-86FA-4632-92C2-ADE4BEDAF2A6}" ShortID="745468818">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
-						</Reference>
-						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="Level" ID="{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}" WorkUnitID="{1FD36526-8D11-4756-A5E4-D86CBE9F4658}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
-						</Reference>
-						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="Music" ID="{0958CD84-5E25-4391-9BC4-00E21B6DCD58}" WorkUnitID="{1FD36526-8D11-4756-A5E4-D86CBE9F4658}"/>
-						</Reference>
-					</ReferenceList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Music" ID="{0958CD84-5E25-4391-9BC4-00E21B6DCD58}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Boss" ID="{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"/>
-								<CustomState Name="" ID="{66BF7739-A703-43D7-9022-87E7864898A9}" ShortID="1066685096"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Level" ID="{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"/>
-								<CustomState Name="" ID="{D02F2F39-3A36-4342-AC80-71B0EC578F9D}" ShortID="252344908"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="None" ID="{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"/>
-								<CustomState Name="" ID="{AAF5EA39-D25F-4027-8AB5-FC2F4B85F9EF}" ShortID="286644488"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
-					<GroupingInfo/>
-				</SwitchContainer>
-				<Sound Name="studiokolomna-risk-136788" ID="{A3EB852C-1B3A-4393-9907-23F8407D4B50}" ShortID="86070667">
+				<ActorMixer Name="Music" ID="{53642AC8-F0BD-4DB5-A236-6DD2800EACDF}" ShortID="596632501">
 					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1281,65 +1234,90 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="studiokolomna-risk-136788" ID="{0CF44008-4228-43D0-8AD0-4339A39A3DBF}">
+						<Sound Name="studiokolomna-risk-136788" ID="{A3EB852C-1B3A-4393-9907-23F8407D4B50}" ShortID="86070667">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="4.40182"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="4.75392"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="69.54883"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>studiokolomna-risk-136788.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="292871006"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="studiokolomna-risk-136788" ID="{0CF44008-4228-43D0-8AD0-4339A39A3DBF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{A1FDB8A5-5DB9-4E89-9C1A-FB62BE27A0FA}" ShortID="82052290">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{BE02B479-E706-455A-9BBF-951577CA367F}">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="studiokolomna-risk-136788" ID="{0CF44008-4228-43D0-8AD0-4339A39A3DBF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.40182"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.75392"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="69.54883"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>studiokolomna-risk-136788.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="292871006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="studiokolomna-risk-136788" ID="{0CF44008-4228-43D0-8AD0-4339A39A3DBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{A1FDB8A5-5DB9-4E89-9C1A-FB62BE27A0FA}" ShortID="82052290">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.71433"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="3.07167"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="136.86329"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="507892006"/>
-							</MediaIDList>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{BE02B479-E706-455A-9BBF-951577CA367F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.71433"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="3.07167"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="136.86329"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="507892006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{BE02B479-E706-455A-9BBF-951577CA367F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{BE02B479-E706-455A-9BBF-951577CA367F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
