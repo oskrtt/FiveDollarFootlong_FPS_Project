@@ -126,7 +126,10 @@
 				</Event>
 				<Event Name="Music_Boss" ID="{438B5D99-839D-4886-9BD5-51251E67680D}">
 					<ChildrenList>
-						<Action Name="" ID="{8ECF0740-BAC7-4AA3-AD13-DD5D41BF9162}" ShortID="240238620">
+						<Action Name="" ID="{21D9E1D7-7104-4D55-98CE-58A0235EAF30}" ShortID="23837197">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{A1FDB8A5-5DB9-4E89-9C1A-FB62BE27A0FA}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
@@ -137,17 +140,23 @@
 				</Event>
 				<Event Name="Music_Stop_All" ID="{27BB9BDC-2316-45BA-B6E4-07C32DA2C4D9}">
 					<ChildrenList>
-						<Action Name="" ID="{E9248A0B-E660-4134-B5BC-6503AC403802}" ShortID="917784491">
+						<Action Name="" ID="{8B046EAA-1089-474C-AEA3-FEE715BB8DF3}" ShortID="605313963">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="studiokolomna-risk-136788" ID="{A3EB852C-1B3A-4393-9907-23F8407D4B50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{8B046EAA-1089-474C-AEA3-FEE715BB8DF3}" ShortID="605313963">
+						<Action Name="" ID="{23F39119-7DE0-4D20-9F10-23D9EFE17933}" ShortID="184191204">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="studiokolomna-risk-136788" ID="{A3EB852C-1B3A-4393-9907-23F8407D4B50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+									<ObjectRef Name="nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467" ID="{A1FDB8A5-5DB9-4E89-9C1A-FB62BE27A0FA}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -155,7 +164,7 @@
 				</Event>
 				<Event Name="Music_Level" ID="{31FF9B38-DE7E-49F5-B1E4-E642B22C1137}">
 					<ChildrenList>
-						<Action Name="" ID="{01D3EABC-1467-4625-9AB6-22B836E07918}" ShortID="695707958">
+						<Action Name="" ID="{1FF5748F-85FA-4E16-820E-D7A2815D04F0}" ShortID="730097290">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="studiokolomna-risk-136788" ID="{A3EB852C-1B3A-4393-9907-23F8407D4B50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>

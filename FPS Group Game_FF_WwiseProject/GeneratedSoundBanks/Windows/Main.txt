@@ -3,9 +3,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	537555803	Enemy_Turret_Alert			\Default Work Unit\Enemy_Turret_Alert	
 	780312891	Player_Heal			\Default Work Unit\Player_Heal	
 	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
+	1090969866	Music_Boss			\Default Work Unit\Music_Boss	
 	1305133589	Player_Jump			\Default Work Unit\Player_Jump	
+	1868184033	Music_Stop_All			\Default Work Unit\Music_Stop_All	
+	2177735725	Music_Level			\Default Work Unit\Music_Level	
 	2865467360	Enemy_HoverBot_Destroy			\Default Work Unit\Enemy_HoverBot_Destroy	
-	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3083087645	Player_Death			\Default Work Unit\Player_Death	
 	3153550024	Enemy_Turret_Shoot			\Default Work Unit\Enemy_Turret_Shoot	
 	3783202364	Launcher_Pickup			\Default Work Unit\Launcher_Pickup	
@@ -53,6 +55,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1064356431	319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\9F\{9FCE7EBB-6E55-6461-8804-F1205A95B971}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319785-EMOTE_George-Man-Pain_Hurt_Grunt_Small_14		32864
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	292871006	studiokolomna-risk-136788	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\AE\{AE794858-3013-6A8A-1D89-282DA0CD4E94}.wem	292871006.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music\studiokolomna-risk-136788	
-	507892006	nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\8B\{8B553EC9-A4C2-BC32-EC76-C9B48B7B2E66}.wem	507892006.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music\nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467	
+	292871006	studiokolomna-risk-136788	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\AE\{AE794858-3013-6A8A-1D89-282DA0CD4E94}.wem	292871006.wem	\Actor-Mixer Hierarchy\Default Work Unit\studiokolomna-risk-136788	
+	507892006	nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\8B\{8B553EC9-A4C2-BC32-EC76-C9B48B7B2E66}.wem	507892006.wem	\Actor-Mixer Hierarchy\Default Work Unit\nickpanekaiassets-70s-doom-metal-instrumental-dark-amp-heavy-riffs-309467	
 

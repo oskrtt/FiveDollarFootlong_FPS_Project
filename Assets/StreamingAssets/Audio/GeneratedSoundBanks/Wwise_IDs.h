@@ -20,7 +20,9 @@ namespace AK
         static const AkUniqueID ENEMY_TURRET_ALERT = 537555803U;
         static const AkUniqueID ENEMY_TURRET_SHOOT = 3153550024U;
         static const AkUniqueID LAUNCHER_PICKUP = 3783202364U;
-        static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID MUSIC_BOSS = 1090969866U;
+        static const AkUniqueID MUSIC_LEVEL = 2177735725U;
+        static const AkUniqueID MUSIC_STOP_ALL = 1868184033U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_HEAL = 780312891U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;

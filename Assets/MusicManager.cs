@@ -2,13 +2,31 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public AK.Wwise.Event playMusic;
+    public AK.Wwise.Event playLevelMusic;
+    public AK.Wwise.Event playBossMusic;
+    public AK.Wwise.Event stopMusic;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private GameObject audioObject;
+
+    void Awake()
     {
-        AkSoundEngine.SetState("Music", "Level");
-        playMusic.Post(gameObject);
+        audioObject = gameObject;
     }
 
+    void Start()
+    {
+        PlayLevel();
+    }
+
+    public void PlayLevel()
+    {
+        stopMusic.Post(audioObject);
+        playLevelMusic.Post(audioObject);
+    }
+
+    public void PlayBoss()
+    {
+        stopMusic.Post(audioObject);
+        playBossMusic.Post(audioObject);
+    }
 }

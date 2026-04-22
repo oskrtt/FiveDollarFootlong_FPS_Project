@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class BossMusicTrigger : MonoBehaviour
 {
-    //public static bool bossMusicLocked = false;
+    public MusicManager musicManager;
+
+    private bool hasTriggered = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!hasTriggered && other.CompareTag("Player"))
         {
-        
-            //bossMusicLocked = true;
-            AkSoundEngine.SetState("Music", "Boss");
+            hasTriggered = true;
+            musicManager.PlayBoss();
         }
     }
 }

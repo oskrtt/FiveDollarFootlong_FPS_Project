@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{12F5852C-5F91-F398-1787-BAA48DF8CBC2}",
+    "Hash": "{331699F3-8CB5-26FE-2697-42BF1AAEBB00}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -401,40 +401,38 @@
       ]
      },
      {
-      "Id": "2932040671",
-      "Name": "Play_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
-      "GUID": "{FF9DA6D0-BA6B-4DAB-B3FE-9B5190F174AA}",
+      "Id": "1090969866",
+      "Name": "Music_Boss",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Boss",
+      "GUID": "{438B5D99-839D-4886-9BD5-51251E67680D}",
       "DurationType": "Infinite",
-      "SwitchContainers": [
+      "MediaRefs": [
        {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "3991942870",
-         "Id": "1560169506",
-         "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "507892006"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "3991942870",
-         "Id": "2782712965",
-         "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "292871006"
-         }
-        ]
+        "Id": "507892006"
        }
       ]
+     },
+     {
+      "Id": "2177735725",
+      "Name": "Music_Level",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Level",
+      "GUID": "{31FF9B38-DE7E-49F5-B1E4-E642B22C1137}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "292871006"
+       }
+      ]
+     },
+     {
+      "Id": "1868184033",
+      "Name": "Music_Stop_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Stop_All",
+      "GUID": "{27BB9BDC-2316-45BA-B6E4-07C32DA2C4D9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3083087645",
@@ -553,6 +551,6 @@
     ]
    }
   ],
-  "FileHash": "{C9B0F47D-ED28-20A1-0C96-429A328C3319}"
+  "FileHash": "{9605CB94-D2F6-C388-F229-518CA48DD463}"
  }
 }
