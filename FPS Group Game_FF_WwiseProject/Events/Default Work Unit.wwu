@@ -173,6 +173,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pickup_Health" ID="{244E974E-85BD-4270-8DF2-874303913F09}">
+					<ChildrenList>
+						<Action Name="" ID="{FB0FA89C-6312-4FD0-BE2D-7C08C6F7E3F7}" ShortID="161088698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Health_Item" ID="{DB72DA27-2E38-4992-9FEC-4B07901C8579}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
