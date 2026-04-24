@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3554861522",
+    "Type": "Event",
+    "GUID": "{244E974E-85BD-4270-8DF2-874303913F09}",
+    "Language": "SFX",
+    "Hash": "{F8CDA9CB-3BDF-8F52-92A7-4CE368A52E8F}",
+    "ObjectPath": "Pickup_Health",
+    "ShortName": "Pickup_Health",
+    "Path": "Event/Pickup_Health.bnk",
+    "Media": [
+     {
+      "Id": "862430870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Health_Item.wav",
+      "Path": "Media/862430870.wem",
+      "CachePath": "26/{26D2B72D-147A-F759-F6B3-D0F021E27414}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3554861522",
+      "Name": "Pickup_Health",
+      "ObjectPath": "\\Events\\Default Work Unit\\Pickup_Health",
+      "GUID": "{244E974E-85BD-4270-8DF2-874303913F09}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.68333",
+      "DurationMax": "1.68333",
+      "MediaRefs": [
+       {
+        "Id": "862430870"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{91D2F0A4-4471-11F8-AA3E-817D81CB1C5B}"
+ }
+}

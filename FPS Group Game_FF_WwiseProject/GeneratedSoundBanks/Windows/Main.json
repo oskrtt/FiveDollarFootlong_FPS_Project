@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{331699F3-8CB5-26FE-2697-42BF1AAEBB00}",
+    "Hash": "{8F17406B-7EF5-8DF4-803E-F9FEDAD71ECD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -520,37 +520,9 @@
        }
       ]
      }
-    ],
-    "StateGroups": [
-     {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\States\\Default Work Unit\\Music",
-      "GUID": "{0958CD84-5E25-4391-9BC4-00E21B6DCD58}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
-        "GUID": "{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"
-       },
-       {
-        "Id": "1560169506",
-        "Name": "Boss",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss",
-        "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
-       },
-       {
-        "Id": "2782712965",
-        "Name": "Level",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Level",
-        "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{D9267882-F293-F7B8-A41E-8BFB9AD3F02F}"
+  "FileHash": "{985C5EEC-E2CB-4BFF-95AC-0B2A03F17CB7}"
  }
 }

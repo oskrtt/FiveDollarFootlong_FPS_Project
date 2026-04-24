@@ -84,7 +84,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{331699F3-8CB5-26FE-2697-42BF1AAEBB00}",
+    "Hash": "{8F17406B-7EF5-8DF4-803E-F9FEDAD71ECD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -594,37 +594,46 @@
        }
       ]
      }
-    ],
-    "StateGroups": [
+    ]
+   },
+   {
+    "Id": "3554861522",
+    "Type": "Event",
+    "GUID": "{244E974E-85BD-4270-8DF2-874303913F09}",
+    "Language": "SFX",
+    "Hash": "{F8CDA9CB-3BDF-8F52-92A7-4CE368A52E8F}",
+    "ObjectPath": "Pickup_Health",
+    "ShortName": "Pickup_Health",
+    "Path": "Event/Pickup_Health.bnk",
+    "Media": [
      {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\States\\Default Work Unit\\Music",
-      "GUID": "{0958CD84-5E25-4391-9BC4-00E21B6DCD58}",
-      "States": [
+      "Id": "862430870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Health_Item.wav",
+      "Path": "Media/862430870.wem",
+      "CachePath": "26/{26D2B72D-147A-F759-F6B3-D0F021E27414}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3554861522",
+      "Name": "Pickup_Health",
+      "ObjectPath": "\\Events\\Default Work Unit\\Pickup_Health",
+      "GUID": "{244E974E-85BD-4270-8DF2-874303913F09}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.68333",
+      "DurationMax": "1.68333",
+      "MediaRefs": [
        {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
-        "GUID": "{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"
-       },
-       {
-        "Id": "1560169506",
-        "Name": "Boss",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss",
-        "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
-       },
-       {
-        "Id": "2782712965",
-        "Name": "Level",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Level",
-        "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
+        "Id": "862430870"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{671E7FC5-ECD3-3D9C-7D43-B23B9905C40B}"
+  "FileHash": "{FD8B8524-CC54-603F-0D28-1AE4367FA7E2}"
  }
 }

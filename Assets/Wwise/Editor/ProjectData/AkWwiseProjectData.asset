@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584248880553030958
+    m_lastTime: -8584246429379659618
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584248880553150354
+    m_lastTime: -8584245598169083152
     List:
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
@@ -266,6 +266,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Pickup_Health
+      guid: 4e974e24bd8570428df2874303913f09
+      id: 3554861522
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Pickup_Health
+        ObjectType: 3
+        guid: 4e974e24bd8570428df2874303913f09
+      Path: Events\Default Work Unit\Pickup_Health
+      maxAttenuation: 0
+      maxDuration: 1.68333
+      minDuration: 1.68333
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
@@ -346,7 +363,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584248880553150354
+    m_lastTime: -8584246429379814903
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -360,7 +377,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584248880553030958
+    m_lastTime: -8584246429379659618
     List:
     - name: Music
       guid: 84cd5809255e91439bc400e21b6dcd58
@@ -456,7 +473,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584266967047775076
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000050000000600000007000000
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000
   ExpandedWaapiItemIds: 0200000003000000050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

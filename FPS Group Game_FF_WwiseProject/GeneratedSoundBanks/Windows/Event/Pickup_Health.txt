@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3554861522	Pickup_Health			\Default Work Unit\Pickup_Health	
+
