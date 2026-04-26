@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{331699F3-8CB5-26FE-2697-42BF1AAEBB00}",
+    "Hash": "{F3C30763-1135-150A-F065-72DFA9C887EC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -64,6 +64,14 @@
       "CachePath": "4E/{4EBA4E78-D635-C03A-1A03-0B4F1A9EFF78}.wem"
      },
      {
+      "Id": "156296490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_02.wav",
+      "CachePath": "1F/{1FB5C58C-3A2F-7B60-DD5E-B816103E9CF5}.wem"
+     },
+     {
       "Id": "235591288",
       "Language": "SFX",
       "Streaming": "false",
@@ -89,12 +97,28 @@
       "CachePath": "76/{7666D1D6-ABC3-146E-914D-94A701ADEDBC}.wem"
      },
      {
+      "Id": "329550055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_03.wav",
+      "CachePath": "83/{8379F37A-C491-7A99-935F-AD49AF76205E}.wem"
+     },
+     {
       "Id": "336694174",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "338145-Male_vocalization_-relief_as_pain_ends_2.wav",
       "CachePath": "5E/{5E30258D-3A23-305C-AE96-0B19B12D6E66}.wem"
+     },
+     {
+      "Id": "403858311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Destroy.wav",
+      "CachePath": "C6/{C69C6FD8-6A42-6936-06C0-DB72932B797A}.wem"
      },
      {
       "Id": "468259415",
@@ -162,6 +186,14 @@
       "CachePath": "C1/{C16CDC2C-0D8F-0C93-9874-52FE6415B618}.wem"
      },
      {
+      "Id": "691911067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_04.wav",
+      "CachePath": "C1/{C17E0ECB-C9FB-5325-FF51-ABCB293DC014}.wem"
+     },
+     {
       "Id": "707688991",
       "Language": "SFX",
       "Streaming": "false",
@@ -216,6 +248,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Shoot_01.wav",
       "CachePath": "F3/{F3AF9B3C-7969-ADFE-AAC2-473ABAA9087B}.wem"
+     },
+     {
+      "Id": "874009420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Hurt_01.wav",
+      "CachePath": "37/{379B949D-8A9F-0A66-EC11-E4370D2BC562}.wem"
      },
      {
       "Id": "877655475",
@@ -360,6 +400,43 @@
       "MediaRefs": [
        {
         "Id": "657389238"
+       }
+      ]
+     },
+     {
+      "Id": "1500461935",
+      "Name": "Enemy_Turret_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Destroy",
+      "GUID": "{0BE7E311-7E48-4ECD-81F9-9EEAF389436F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8814997",
+      "DurationMax": "1.11062",
+      "MediaRefs": [
+       {
+        "Id": "403858311"
+       }
+      ]
+     },
+     {
+      "Id": "329372592",
+      "Name": "Enemy_Turret_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Turret_Hurt",
+      "GUID": "{C2F23F79-E9B3-40CF-8980-499991EC9333}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27612045",
+      "DurationMax": "0.6811007",
+      "MediaRefs": [
+       {
+        "Id": "156296490"
+       },
+       {
+        "Id": "329550055"
+       },
+       {
+        "Id": "691911067"
+       },
+       {
+        "Id": "874009420"
        }
       ]
      },
@@ -520,37 +597,9 @@
        }
       ]
      }
-    ],
-    "StateGroups": [
-     {
-      "Id": "3991942870",
-      "Name": "Music",
-      "ObjectPath": "\\States\\Default Work Unit\\Music",
-      "GUID": "{0958CD84-5E25-4391-9BC4-00E21B6DCD58}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
-        "GUID": "{CF781F29-6125-4F8F-A1B8-124D71A8AC48}"
-       },
-       {
-        "Id": "1560169506",
-        "Name": "Boss",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Boss",
-        "GUID": "{29A75FCA-358E-4C64-961C-CF8D0DE4CFCE}"
-       },
-       {
-        "Id": "2782712965",
-        "Name": "Level",
-        "ObjectPath": "\\States\\Default Work Unit\\Music\\Level",
-        "GUID": "{64666BE1-BB85-4C96-A09E-EFCE50F92E5E}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{9605CB94-D2F6-C388-F229-518CA48DD463}"
+  "FileHash": "{71BBA4C6-FFF6-B0B4-DB1D-40433F873D51}"
  }
 }
