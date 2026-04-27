@@ -5,10 +5,13 @@ namespace Unity.FPS.Game
 {
     public class Health : MonoBehaviour
     {
-        [Tooltip("Maximum amount of health")] public float MaxHealth = 10f;
-
-        [Tooltip("Health ratio at which the critical health vignette starts appearing")]
+        [Header("Health")]
+        public float MaxHealth = 10f;
         public float CriticalHealthRatio = 0.3f;
+
+        [Header("Audio")]
+        public AudioSource HeartbeatAudioSource;
+        public AudioClip HeartbeatClip;
 
         public UnityAction<float, GameObject> OnDamaged;
         public UnityAction<float> OnHealed;
@@ -16,26 +19,80 @@ namespace Unity.FPS.Game
 
         public float CurrentHealth { get; set; }
         public bool Invincible { get; set; }
-        public bool CanPickup() => CurrentHealth < MaxHealth;
+
+        bool m_IsDead;
+        Coroutine m_HeartbeatRoutine;
 
         public float GetRatio() => CurrentHealth / MaxHealth;
         public bool IsCritical() => GetRatio() <= CriticalHealthRatio;
 
-        bool m_IsDead;
-
         void Start()
         {
             CurrentHealth = MaxHealth;
+
+            if (HeartbeatAudioSource != null && HeartbeatClip != null)
+            {
+                HeartbeatAudioSource.clip = HeartbeatClip;
+                HeartbeatAudioSource.loop = true;
+                HeartbeatAudioSource.playOnAwake = false;
+            }
+        }
+
+        void OnEnable()
+        {
+            m_HeartbeatRoutine = StartCoroutine(HeartbeatWatcher());
+        }
+
+        void OnDisable()
+        {
+            if (m_HeartbeatRoutine != null)
+            {
+                StopCoroutine(m_HeartbeatRoutine);
+                m_HeartbeatRoutine = null;
+            }
+
+            if (HeartbeatAudioSource != null)
+            {
+                HeartbeatAudioSource.Stop();
+            }
+        }
+
+        System.Collections.IEnumerator HeartbeatWatcher()
+        {
+            while (true)
+            {
+                float ratio = CurrentHealth / MaxHealth;
+
+                if (ratio <= CriticalHealthRatio)
+                {
+                    if (HeartbeatAudioSource != null && !HeartbeatAudioSource.isPlaying)
+                    {
+                        HeartbeatAudioSource.Play();
+                        Debug.Log("Heartbeat START");
+                    }
+                }
+                else
+                {
+                    if (HeartbeatAudioSource != null && HeartbeatAudioSource.isPlaying)
+                    {
+                        HeartbeatAudioSource.Stop();
+                        Debug.Log("Heartbeat STOP");
+                    }
+                }
+
+                yield return new WaitForSeconds(0.2f);
+            }
         }
 
         public void Heal(float healAmount)
         {
             float healthBefore = CurrentHealth;
+
             CurrentHealth += healAmount;
             CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);
 
-            // call OnHeal action
             float trueHealAmount = CurrentHealth - healthBefore;
+
             if (trueHealAmount > 0f)
             {
                 OnHealed?.Invoke(trueHealAmount);
@@ -48,11 +105,12 @@ namespace Unity.FPS.Game
                 return;
 
             float healthBefore = CurrentHealth;
+
             CurrentHealth -= damage;
             CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);
 
-            // call OnDamage action
             float trueDamageAmount = healthBefore - CurrentHealth;
+
             if (trueDamageAmount > 0f)
             {
                 OnDamaged?.Invoke(trueDamageAmount, damageSource);
@@ -65,7 +123,6 @@ namespace Unity.FPS.Game
         {
             CurrentHealth = 0f;
 
-            // call OnDamage action
             OnDamaged?.Invoke(MaxHealth, null);
 
             HandleDeath();
@@ -76,12 +133,22 @@ namespace Unity.FPS.Game
             if (m_IsDead)
                 return;
 
-            // call OnDie action
             if (CurrentHealth <= 0f)
             {
                 m_IsDead = true;
+
+                if (HeartbeatAudioSource != null)
+                {
+                    HeartbeatAudioSource.Stop();
+                }
+
                 OnDie?.Invoke();
             }
+        }
+
+        public bool CanPickup()
+        {
+            return CurrentHealth < MaxHealth;
         }
     }
 }
