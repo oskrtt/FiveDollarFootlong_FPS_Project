@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584243368672126963
+    m_lastTime: -8584243340739218977
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584243368671805881
+    m_lastTime: -8584243340738986568
     List:
+    - name: Blaster_Fire
+      guid: 727dd7a74d3cf742b0a788996847665c
+      id: 639453935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Blaster_Fire
+        ObjectType: 3
+        guid: 727dd7a74d3cf742b0a788996847665c
+      Path: Events\Default Work Unit\Blaster_Fire
+      maxAttenuation: 0
+      maxDuration: 0.96684027
+      minDuration: 0.96684027
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
       id: 3796910724
