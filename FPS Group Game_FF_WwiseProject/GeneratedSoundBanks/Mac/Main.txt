@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	285818559	Enemy_HoverBot_Shoot			\Default Work Unit\Enemy_HoverBot_Shoot	
 	329372592	Enemy_Turret_Hurt			\Default Work Unit\Enemy_Turret_Hurt	
 	537555803	Enemy_Turret_Alert			\Default Work Unit\Enemy_Turret_Alert	
+	639453935	Blaster_Fire			\Default Work Unit\Blaster_Fire	
 	780312891	Player_Heal			\Default Work Unit\Player_Heal	
 	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
 	1090969866	Music_Boss			\Default Work Unit\Music_Boss	
@@ -39,7 +40,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	678065201	Enemy_HoverBot_Alert	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\C1\{C16CDC2C-0D8F-0C93-9874-52FE6415B618}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Alert		165068
 	691911067	Enemy_Turret_Hurt_04	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\C1\{C17E0ECB-C9FB-5325-FF51-ABCB293DC014}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_Turret_Hurt\Enemy_Turret_Hurt_04		35026
 	707688991	319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\0C\{0C3D371A-EACC-9EE7-9F8A-A00167B01AC0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319781-EMOTE_George-Man-Pain_Hurt_Grunt_Small_01		26208
-	726413876	256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\44\{44133022-9A4D-3166-A0AC-97371975335A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5		125212
+	726413876	laucher-shot	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\44\{44133022-9A4D-3166-A0AC-97371975335A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\laucher-shot		125212
 	728491709	Enemy_Turret_Shoot_01	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\AC\{AC8522D6-12EA-8870-796E-184C806D08F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_Turret_Shoot\Enemy_Turret_Shoot_01		23172
 	736278118	Enemy_Turret_Shoot_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\08\{08B1A6AD-EABF-124B-718B-3C2B4C4FCEEF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_Turret_Shoot\Enemy_Turret_Shoot_02		22020
 	739805729	jump5	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\26\{26E6E851-4FE5-237B-8A05-BF4EE53756F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump5		94512
@@ -50,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	877655475	launcher-pickup	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\16\{16B4CE77-9E6E-CBC0-7B6D-7C44AE908974}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\launcher-pickup		105700
 	888030220	jump3	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\FC\{FCE4B252-0F4B-69EC-2EBB-34CE006C45ED}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-jump\jump3		119180
 	892649398	319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\61\{61629492-B1D6-AB8D-D8C6-803294990513}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319654-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_12		30048
+	913385657	blaster-shot	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\47\{477F7F88-DFDA-CC42-4FE3-1C844C3BDFB6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\blaster-shot		169340
 	1001351414	Enemy_HoverBot_Shoot_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\08\{084D0E74-A1E6-0DFE-3A7C-9DFE8734EDD3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Shoot\Enemy_HoverBot_Shoot_02		72024
 	1007893926	319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\5A\{5ADEEFF0-2E1B-10E7-CEC0-02E947B82E63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\player-hurt\319658-EMOTE_Harry-Man-Pain_Hurt_Grunt_Small_02		40288
 	1008970823	Enemy_HoverBot_Hurt_03	C:\Users\josca\Documents\GitKraken\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\.cache\DB\{DB7DB083-C9DC-1318-CEE6-AD1299774817}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Enemy_HoverBot_Hurt\Enemy_HoverBot_Hurt_03		73632

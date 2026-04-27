@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{71F21A7E-47D3-81B5-48EF-FD66204FD41A}",
+    "Hash": "{6C002D59-78FF-4659-AC28-A9B4151E02E2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -290,6 +290,14 @@
       "CachePath": "61/{61629492-B1D6-AB8D-D8C6-803294990513}.wem"
      },
      {
+      "Id": "913385657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "257187-Future_Weapons_2_-Source_-laser-shot-clean-flanger.wav",
+      "CachePath": "47/{477F7F88-DFDA-CC42-4FE3-1C844C3BDFB6}.wem"
+     },
+     {
       "Id": "1001351414",
       "Language": "SFX",
       "Streaming": "false",
@@ -323,6 +331,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "639453935",
+      "Name": "Blaster_Fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Blaster_Fire",
+      "GUID": "{A7D77D72-3C4D-42F7-B0A7-88996847665C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.96684027",
+      "DurationMax": "0.96684027",
+      "MediaRefs": [
+       {
+        "Id": "913385657"
+       }
+      ]
+     },
      {
       "Id": "3796910724",
       "Name": "Enemy_HoverBot_Alert",
@@ -622,6 +644,6 @@
     ]
    }
   ],
-  "FileHash": "{CBA27BA4-3EAD-28A3-18A1-D015B19C260D}"
+  "FileHash": "{1EEA321E-E467-AC87-CEC3-8F9DE5E39FC6}"
  }
 }

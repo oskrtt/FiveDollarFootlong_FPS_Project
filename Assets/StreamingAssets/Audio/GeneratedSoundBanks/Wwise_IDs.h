@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLASTER_FIRE = 639453935U;
         static const AkUniqueID ENEMY_HOVERBOT_ALERT = 3796910724U;
         static const AkUniqueID ENEMY_HOVERBOT_DESTROY = 2865467360U;
         static const AkUniqueID ENEMY_HOVERBOT_HURT = 4067705073U;
