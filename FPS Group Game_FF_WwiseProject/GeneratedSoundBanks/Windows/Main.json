@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D455BB5E-0547-41A8-A4CB-DC55A4527CBA}",
     "Language": "SFX",
-    "Hash": "{6C002D59-78FF-4659-AC28-A9B4151E02E2}",
+    "Hash": "{19F54FAD-BE8E-35E6-1A2E-45B8092AAE5A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -127,6 +127,15 @@
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Shoot_03.wav",
       "CachePath": "B9/{B961FE41-A7D7-C178-36B6-AB8D80D537C7}.wem"
+     },
+     {
+      "Id": "503374056",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "sounddesign2.wav",
+      "Path": "Media/503374056.wem",
+      "CachePath": "F2/{F235744F-BF9D-B68E-E6FF-2E2B92056C78}.wem"
      },
      {
       "Id": "507892006",
@@ -556,6 +565,18 @@
       "DurationMax": "0"
      },
      {
+      "Id": "1641559457",
+      "Name": "Play_Environment",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment",
+      "GUID": "{3701A1EB-3731-4FE9-876A-1C57EA808FFC}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "503374056"
+       }
+      ]
+     },
+     {
       "Id": "3083087645",
       "Name": "Player_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Death",
@@ -644,6 +665,6 @@
     ]
    }
   ],
-  "FileHash": "{D6C42947-6BC2-5F60-696C-E9DF0ED2CF1A}"
+  "FileHash": "{59E3CBC6-0675-AF8A-680E-D13B158D6FFB}"
  }
 }

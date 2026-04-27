@@ -19,7 +19,7 @@
     "GUID": "{2605E358-974B-47E7-B8B6-00E6218D8F07}",
     "BasePlatform": "Windows",
     "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
-    "Path": "../../../../FPS Group Game_FF_WwiseProject/GeneratedSoundBanks/Windows"
+    "Path": "../../../../FPS Group Game_FF_WwiseProject/SoundBanks"
    }
   ],
   "Languages": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{8EED909F-F2C7-F548-78B5-221FA6C99D23}"
+  "FileHash": "{6427C377-F5CF-2C27-E504-7B9C2BFC66BA}"
  }
 }

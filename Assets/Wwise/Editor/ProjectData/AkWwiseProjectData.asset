@@ -24,7 +24,11 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 377d41dbbfe6f64eb0041be1f686a4ce
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584265298237367433
+=======
+    m_lastTime: -8584259275356370671
+>>>>>>> Stashed changes
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +42,11 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 39991462d2d61d4b85436a40a0f6e0e8
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584265298238860484
+=======
+    m_lastTime: -8584259275356947122
+>>>>>>> Stashed changes
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +74,11 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584242905420414132
+=======
+    m_lastTime: -8584242917565790739
+>>>>>>> Stashed changes
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +106,11 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584242905421901788
+=======
+    m_lastTime: -8584242917565753255
+>>>>>>> Stashed changes
     List:
     - name: Blaster_Fire
       guid: 727dd7a74d3cf742b0a788996847665c
@@ -334,6 +350,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Environment
+      guid: 7956b750a894b549b75be4106e16d97f
+      id: 1641559457
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Play_Environment
+        ObjectType: 3
+        guid: 7956b750a894b549b75be4106e16d97f
+      Path: Events\Default Work Unit\Play_Environment
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Player_Death
       guid: 65cab16e9e5ce04bbe9e6a700e734565
       id: 3083087645
@@ -508,7 +541,11 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: d51dc3041faad54eab156e4ddf5976df
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584265298237378699
+=======
+    m_lastTime: -8584259275356380682
+>>>>>>> Stashed changes
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -522,7 +559,11 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 86861026b66ea348b8606a6b6638f205
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584265298237370508
+=======
+    m_lastTime: -8584259275356370671
+>>>>>>> Stashed changes
     List: []
   ExpandedFileSystemItemIds: 0200000003000000050000000600000007000000
   ExpandedWaapiItemIds: 0200000003000000050000000600000007000000

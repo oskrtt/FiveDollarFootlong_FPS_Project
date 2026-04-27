@@ -1639,6 +1639,43 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Environment" ID="{4FF1B4D6-F5BC-4B15-9B21-744F2C57DB19}" ShortID="754499810">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sounddesign2" ID="{C3BF2141-7024-4DE4-A966-AF9FDA6CFF29}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.03736"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.03735"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.60602"/>
+								<Property Name="TrimEnd" Type="Real64" Value="29.54194"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sounddesign2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="503374056"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sounddesign2" ID="{C3BF2141-7024-4DE4-A966-AF9FDA6CFF29}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

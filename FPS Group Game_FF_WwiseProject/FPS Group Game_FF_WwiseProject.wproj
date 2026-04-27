@@ -32,7 +32,7 @@
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">C:\Users\tmpxb\Documents\GitHub\FiveDollarFootlong_FPS_Project\FPS Group Game_FF_WwiseProject\SoundBanks\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -11701,6 +11701,21 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Bus">
+					<WorkUnit Name="Bus" ID="{7A8A5F5A-87C0-486B-8A27-609A8BB2D7DB}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Bus\English(US)">
+					<WorkUnit Name="English(US)" ID="{3038CB57-DFF9-4DF5-A08D-953F16AF073C}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\English(US)">
+					<WorkUnit Name="English(US)" ID="{6DC5B9D1-9C85-42AE-B943-D7D075D9C134}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Event">
+					<WorkUnit Name="Event" ID="{B6C03FC5-BB4B-4AE8-8F52-8B696A322558}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Event\English(US)">
+					<WorkUnit Name="English(US)" ID="{7B8CD5CD-B2B1-46E3-835D-93488AE10BEF}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone" />

@@ -217,6 +217,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Environment" ID="{50B75679-94A8-49B5-B75B-E4106E16D97F}">
+					<ChildrenList>
+						<Action Name="" ID="{70E9951B-C5F7-47E8-BBCD-9C91A8C92DED}" ShortID="895738640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environment" ID="{4FF1B4D6-F5BC-4B15-9B21-744F2C57DB19}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A10DFFF5-C4C8-4503-B307-9C24D49F6B6A}" ShortID="1031965179">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environment" ID="{4FF1B4D6-F5BC-4B15-9B21-744F2C57DB19}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
