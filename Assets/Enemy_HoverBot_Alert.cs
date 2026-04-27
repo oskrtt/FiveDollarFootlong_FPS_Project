@@ -1,31 +1,27 @@
-using UnityEngine;
+using Unity.FPS.AI;
 using Unity.FPS.Game;
+using UnityEngine;
 
 public class Enemy_HoverBot_Alert : MonoBehaviour
 {
     public AK.Wwise.Event alertEvent;
-    private bool playerDetected = false;
-
-    void OnTriggerEnter(Collider other)
+    public enum AIState
     {
-        // Check if the object that entered the trigger is the player
-        if (other.CompareTag("Player") && !playerDetected)
-        {
-            playerDetected = true;
-
-        if (alertEvent != null)
-            {
-                alertEvent.Post(gameObject);  // Posts the event to this GameObject
-            }
-        }
+        Patrol,
+        Follow,
+        Attack,
     }
-
-    void OnTriggerExit(Collider other)
+    public AIState AiState { get; private set; }
+    EnemyController m_EnemyController;
+    void Start()
     {
-        // If the player leaves the detection zone, reset the detection
-        if (other.CompareTag("Player") && playerDetected)
-        {
-            playerDetected = false;
-        }
+        m_EnemyController = GetComponent<EnemyController>();
+        DebugUtility.HandleErrorIfNullGetComponent<EnemyController, EnemyMobile>(m_EnemyController, this,
+            gameObject);
+        m_EnemyController.onDetectedTarget += OnDetectedTarget;
+    }
+    void OnDetectedTarget()
+    {
+        alertEvent.Post(gameObject);
     }
 }
