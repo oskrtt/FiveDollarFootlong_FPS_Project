@@ -195,6 +195,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Launcher_Fire" ID="{31092A20-4D62-48DB-8E86-B1F8F9352D7F}">
+					<ChildrenList>
+						<Action Name="" ID="{9D4ED7C3-3F2C-447A-9213-DD478C977717}" ShortID="45228843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5" ID="{BD9C6D51-D0CE-48B8-8CD5-D111771F5CE3}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -12,8 +12,8 @@
 						<ObjectRef Name="Enemy_HoverBot_Alert" ID="{E93268A8-B0F4-4381-9F34-20BE5A536216}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Destroy" ID="{2FE9DFC1-88FF-4435-8582-9A9F0C100DBD}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Stop_All" ID="{27BB9BDC-2316-45BA-B6E4-07C32DA2C4D9}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music" ID="{F6BC3266-86FA-4632-92C2-ADE4BEDAF2A6}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Boss" ID="{438B5D99-839D-4886-9BD5-51251E67680D}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Launcher_Fire" ID="{31092A20-4D62-48DB-8E86-B1F8F9352D7F}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_Turret_Alert" ID="{559E8348-B215-4957-8562-A43304DC4DAB}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Level" ID="{31FF9B38-DE7E-49F5-B1E4-E642B22C1137}" WorkUnitID="{9C80B407-0F7E-4309-B75C-EA85C7F55350}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy_HoverBot_Shoot" ID="{680F1D4C-8287-4A33-8F6D-D021BC5DCC50}" WorkUnitID="{14A6F7EB-8888-4E47-A1C0-4090FA721764}" Origin="Manual" Filter="7"/>

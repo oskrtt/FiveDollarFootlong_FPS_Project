@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8512ff3dac1f8545824add3a70e8f7a6
     GuidInternal: 
-    m_lastTime: -8584243653649723693
+    m_lastTime: -8584243368672126963
     List:
     - name: Main
       guid: 5ebb55d44705a841a4cbdc55a4527cba
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 07b4809c7e0f0943b75cea85c7f55350
     GuidInternal: 
-    m_lastTime: -8584243653650101381
+    m_lastTime: -8584243368671805881
     List:
     - name: Enemy_HoverBot_Alert
       guid: a86832e9f4b081439f3420be5a536216
@@ -196,8 +196,8 @@ MonoBehaviour:
         guid: 11e3e70b487ecd4e81f99eeaf389436f
       Path: Events\Default Work Unit\Enemy_Turret_Destroy
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.11062
+      minDuration: 0.8814997
     - name: Enemy_Turret_Hurt
       guid: 793ff2c2b3e9cf408980499991ec9333
       id: 329372592
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: 793ff2c2b3e9cf408980499991ec9333
       Path: Events\Default Work Unit\Enemy_Turret_Hurt
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6811007
+      minDuration: 0.27612045
     - name: Enemy_Turret_Shoot
       guid: 28bd45197465454d82959ff5b5ea4a08
       id: 3153550024
@@ -232,6 +232,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5252359
       minDuration: 0.1218251
+    - name: Launcher_Fire
+      guid: 202a0931624ddb488e86b1f8f9352d7f
+      id: 1563725988
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 07b4809c7e0f0943b75cea85c7f55350
+      - ElementName: Launcher_Fire
+        ObjectType: 3
+        guid: 202a0931624ddb488e86b1f8f9352d7f
+      Path: Events\Default Work Unit\Launcher_Fire
+      maxAttenuation: 0
+      maxDuration: 0.6516446
+      minDuration: 0.6516446
     - name: Launcher_Pickup
       guid: ca654ace166f814fb1fc7dad35b3fd24
       id: 3783202364
@@ -380,7 +397,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e68e5330cfe7904db3c77b7f7eca9ba9
     GuidInternal: 
-    m_lastTime: -8584248874439042417
+    m_lastTime: -8584247218221750413
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -394,7 +411,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2665d31f118d5647a5e4d86cbe9f4658
     GuidInternal: 
-    m_lastTime: -8584248874438615760
+    m_lastTime: -8584247218221590455
     List:
     - name: Music
       guid: 84cd5809255e91439bc400e21b6dcd58

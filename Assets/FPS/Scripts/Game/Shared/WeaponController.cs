@@ -31,6 +31,8 @@ namespace Unity.FPS.Game
         [Header("Information")] [Tooltip("The name that will be displayed in the UI for this weapon")]
         public string WeaponName;
 
+        public AK.Wwise.Event fireEvent;
+
         [Tooltip("The image that will be displayed in the UI for this weapon")]
         public Sprite WeaponIcon;
 
@@ -475,7 +477,11 @@ namespace Unity.FPS.Game
             m_LastTimeShot = Time.time;
 
             // play shoot SFX
-            if (ShootSfx && !UseContinuousShootSound)
+            if (fireEvent != null && fireEvent.IsValid())
+            {
+                fireEvent.Post(WeaponMuzzle.gameObject);
+            }
+            else if (ShootSfx)
             {
                 m_ShootAudioSource.PlayOneShot(ShootSfx);
             }

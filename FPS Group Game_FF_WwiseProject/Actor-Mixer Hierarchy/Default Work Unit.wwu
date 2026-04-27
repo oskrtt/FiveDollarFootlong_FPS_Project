@@ -1473,6 +1473,39 @@
 								<ActiveSource Name="257558-Mechanism_-AssaultRifle-PickUp-003" ID="{B0C16A94-D91A-4D35-A987-AC82B42C5B5C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5" ID="{BD9C6D51-D0CE-48B8-8CD5-D111771F5CE3}" ShortID="97438689">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DE7F3C39-CFC4-4539-B058-B695E4895E18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62149939-D6D2-4B1D-8543-6A40A0F6E0E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5" ID="{F763490E-3917-4626-9471-AB0EB630B365}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.01872"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726413876"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="256992-Future_Weapons_2_-Impulse_Gun_-shot-single-5" ID="{F763490E-3917-4626-9471-AB0EB630B365}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Music" ID="{53642AC8-F0BD-4DB5-A236-6DD2800EACDF}" ShortID="596632501">
@@ -1499,7 +1532,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
